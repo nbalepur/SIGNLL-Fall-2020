@@ -2,12 +2,12 @@
 "intents": [{
             "tag": "greeting",
             "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day", "What's up", "Howdy"],
-            "responses": ["Hello, what questions do you have?", "Good to see you again!", "Hi there, how can I help?"]
+            "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"]
         },
         {
             "tag": "goodbye",
             "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
-            "responses": ["See you later!", "Have a nice day", "Bye! Come back again soon"]
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
         },
         {
             "tag": "thanks",
@@ -17,16 +17,16 @@
         {
             "tag": "noanswer",
             "patterns": [],
-            "responses": ["Sorry, I don't understand what you mean", "I don't think I can help with that, please ask me something else", "Sorry, I can't do that yet"]
+            "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
         },
         {
             "tag": "options",
-            "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered", "What is your functionality?"],
+            "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
             "responses": ["I can direct you to your nearest Taco Bell, send you contact information, give you a recommendation, tell you today's deals, and give you a fun fact!", "Offering support for directions, contact information, recommendations, deals, and fun facts!"]
         },
         {
             "tag": "directions",
-            "patterns": ["Can you give me directions?", "How do I get there?", "Where are you located?", "How do I find your location?", "Tell me where you are", "Where is my nearest Taco Bell?"],
+            "patterns": ["Can you give me directions?", "How do I get there?", "Where are you located?", "How do I find your location?", "Tell me where you are"],
             "responses": ["We are located at 512 E Green Street", "Come visit us at 512 E Green Street", "You can find us on Green Street, near Legends and Signature Grill"]
         },
         {

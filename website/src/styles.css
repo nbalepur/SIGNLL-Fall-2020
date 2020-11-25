@@ -1,0 +1,44 @@
+[id^="page-tab-"] {
+  font-size: 20px;
+  color: gray;
+}
+
+[id^="page-tab-active-"] {
+  color: #2185c5;
+}
+
+.notebook {
+  padding-bottom: 50px;
+}
+
+.slides {
+  padding-bottom: 50px;
+}
+
+.notebook-switch {
+  padding-bottom: 10px;
+}
+
+[id^="language-badge-"] {
+  background-color: #92ad94 !important;
+  margin-right: 5px;
+}
+
+[id^="topic-badge-"] {
+  background-color: #71bceb !important;
+  color: black;
+  margin-right: 5px;
+}
+
+.home-header {
+  color: #2185c5;
+}
+
+.carousel-label {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 25px;
+}
+
+#checkbox-row {
+  padding-bottom: 10px;
+}

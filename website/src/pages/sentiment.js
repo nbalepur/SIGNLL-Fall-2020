@@ -69,12 +69,12 @@ class Sentiment extends Component {
         ),
       },
       {
-        name: "Tweet Sentiment Demo",
+        name: "Custom Tweet Demo",
         component: (
           <TweetSentiment
             title="Sentiment Analysis"
             titleKey="Demo"
-            subtitle="Here we have a demo of predicting the sentiment of tweets! Please note that this model was trained with very few samples and without the use of nltk, due to the limitations of JavaScript"
+            subtitle="Here we have a demo of predicting the sentiment of tweets! Please note that this model was trained with very few samples and without the use of nltk due to the limitations of JavaScript. For the best results, type very descriptive messages"
             badges={{
               title: "sentiment",
               badges: [

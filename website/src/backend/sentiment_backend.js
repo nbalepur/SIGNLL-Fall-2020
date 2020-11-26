@@ -5,7 +5,7 @@ import { tweet_dict } from "./storage/sentiment_storage.js";
  * @param {String} tweet user input tweet
  */
 export const processTweet = (tweet) => {
-  tweet = tweet.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "").toLowerCase();
+  tweet = tweet.replace(/[.,/#!$%^&*;:{}=\-_`~()]/g, "").toLowerCase();
   return tweet.split(" ");
 };
 
@@ -25,7 +25,7 @@ export const extractFeatures = (tweet) => {
     let freqs = tweet_dict[processed_tweet[tweet_num]];
     // continue if not in dictionary
     if (freqs === null || freqs === undefined) {
-      continue;
+      freqs = [0, 0];
     }
 
     // add info object

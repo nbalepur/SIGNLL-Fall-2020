@@ -1,4 +1,15 @@
 /*
+ * @license
+ * chartjs-plugin-deferred
+ * http://chartjs.org/
+ * Version: 1.0.1
+ *
+ * Copyright 2018 Simon Brunel
+ * Released under the MIT license
+ * https://github.com/chartjs/chartjs-plugin-deferred/blob/master/LICENSE.md
+ */
+
+/*
 object-assign
 (c) Sindre Sorhus
 @license MIT
@@ -16,6 +27,8 @@ object-assign
  * (c) 2020 Chart.js Contributors
  * Released under the MIT License
  */
+
+/*! Copyright Twitter Inc. and other contributors. Licensed under MIT */
 
 /** @license React v0.20.1
  * scheduler.production.min.js

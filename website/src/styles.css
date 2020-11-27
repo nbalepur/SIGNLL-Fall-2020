@@ -42,3 +42,11 @@
 #checkbox-row {
   padding-bottom: 10px;
 }
+
+.canvas-buttons {
+  padding-top: 5px;
+}
+
+.predict-button {
+  padding-top: 5px;
+}

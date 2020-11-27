@@ -10,9 +10,11 @@ import FakeTweet from "fake-tweet";
 import "fake-tweet/build/index.css";
 
 import "chartjs-plugin-deferred";
+import NormalDistribution from "normal-distribution";
 
 class TweetAuthor extends Component {
   state = {
+    distribution: null,
     tweet: "",
     doughnutChart: null,
     barChart: null,
@@ -174,43 +176,11 @@ class TweetAuthor extends Component {
 
   /**
    * Gets the p-value from the z-score
-   * from: https://stackoverflow.com/questions/16194730/seeking-a-statistical-javascript-function-to-return-p-value-from-a-z-score
-   * @param {float} z the z-score
+   * from: https://www.npmjs.com/package/react-canvas-draw
+   * @param {double} z the z-score
    */
   calcPValue = (z) => {
-    // edge cases
-    if (z < -6.5) return 0.0;
-    if (z > 6.5) return 1.0;
-
-    // only use the positive case
-    if (z > 0) {
-      z = -z;
-    }
-
-    // initialize variables
-    var factK = 1;
-    var sum = 0;
-    var term = 1;
-    var k = 0;
-    var loopStop = Math.exp(-23);
-
-    // pseudo-integrate
-    while (Math.abs(term) > loopStop) {
-      term =
-        (((0.3989422804 * Math.pow(-1, k) * Math.pow(z, k)) /
-          (2 * k + 1) /
-          Math.pow(2, k)) *
-          Math.pow(z, k + 1)) /
-        factK;
-      sum += term;
-      k++;
-      factK *= k;
-    }
-    // increment sum
-    sum += 0.5;
-
-    // return probability
-    return 2 * sum;
+    return new NormalDistribution().cdf(z);
   };
 
   /**
@@ -218,8 +188,7 @@ class TweetAuthor extends Component {
    * @param {double} likelihood prediction value
    */
   createDoughnutChart = (likelihood) => {
-    let prob = this.calcPValue(likelihood);
-    let probKanye = likelihood < 0 ? prob : 1 - prob;
+    let probKanye = this.calcPValue(likelihood);
     this.setState({
       doughnutChart: (
         <Doughnut

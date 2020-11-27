@@ -5,6 +5,7 @@ import { Container } from "react-bootstrap";
 import Tab from "../components/tabs.js";
 import Notebook from "../components/notebook.js";
 import Slides from "../components/slides.js";
+import TweetAuthor from "../components/tweet_author.js";
 
 class NaiveBayes extends Component {
   componentDidMount() {
@@ -54,6 +55,30 @@ class NaiveBayes extends Component {
             subtitle="In this presentation, we give an introduction to probability, statistics and bayes theorem, and then apply what we learned to the de-anonymization of tweets"
             download="naive_bayes.pdf"
             source="https://docs.google.com/presentation/d/e/2PACX-1vRFhGziJwPYxgqO_fNE2qwYtZe48R5ulsor7gxrOSrdyQIxHmtascTG6GhdVfrdwAMK9VM71P1OlREJ"
+            badges={{
+              title: "naivebayes",
+              badges: [
+                { label: "de-anonymization", type: "topic" },
+                { label: "naive bayes", type: "topic" },
+                { label: "APIs", type: "topic" },
+                { label: "python", type: "language" },
+                { label: "numpy", type: "language" },
+                { label: "nltk", type: "language" },
+                { label: "tweepy", type: "language" },
+                { label: "matplotlib", type: "language" },
+                { label: "pandas", type: "language" },
+              ],
+            }}
+          />
+        ),
+      },
+      {
+        name: "Tweet Author Demo",
+        component: (
+          <TweetAuthor
+            title="Naive Bayes"
+            titleKey="Demo"
+            subtitle="Here we have a demo for predicting whether a tweet was written by Joe Biden or Kanye West! Please note that this model was trained with very few samples and without the use of nltk due to the limitations of JavaScript. Type your own messages to see what the model predicts!"
             badges={{
               title: "naivebayes",
               badges: [

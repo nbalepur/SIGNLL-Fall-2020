@@ -34,7 +34,7 @@ class TweetSentiment extends Component {
   }
 
   getSentiment = () => {
-    //console.log(processTweet("My name is nishant and im cool"));
+    // initial cleaning
     var tweet = document.getElementById("sentiment-input").value.trim();
     tweet = tweet.replace(/\s\s+/g, " ");
     document.getElementById("sentiment-input").value = tweet;
@@ -263,9 +263,7 @@ class TweetSentiment extends Component {
             </div>
           </div>
         </div>
-        <br></br>
-        <br></br>
-        {this.state.tweet}
+
         <br></br>
         <br></br>
         <Jumbotron ref={this.jumbotronRef}>
@@ -282,6 +280,10 @@ class TweetSentiment extends Component {
             sentiment
           </h4>
         </Jumbotron>
+        <br></br>
+        {this.state.tweet}
+        <br></br>
+        <br></br>
         <br></br>
         {this.state.doughnutChart}
         <br></br>

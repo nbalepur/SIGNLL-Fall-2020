@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/SIGNLL-Fall-2020/static/css/main.2912577f.chunk.css",
-    "main.js": "/SIGNLL-Fall-2020/static/js/main.4cdb3356.chunk.js",
-    "main.js.map": "/SIGNLL-Fall-2020/static/js/main.4cdb3356.chunk.js.map",
-    "runtime-main.js": "/SIGNLL-Fall-2020/static/js/runtime-main.6e2cc660.js",
-    "runtime-main.js.map": "/SIGNLL-Fall-2020/static/js/runtime-main.6e2cc660.js.map",
+    "main.js": "/SIGNLL-Fall-2020/static/js/main.e4518cf4.chunk.js",
+    "main.js.map": "/SIGNLL-Fall-2020/static/js/main.e4518cf4.chunk.js.map",
+    "runtime-main.js": "/SIGNLL-Fall-2020/static/js/runtime-main.55253239.js",
+    "runtime-main.js.map": "/SIGNLL-Fall-2020/static/js/runtime-main.55253239.js.map",
     "static/css/2.8e0fee1b.chunk.css": "/SIGNLL-Fall-2020/static/css/2.8e0fee1b.chunk.css",
-    "static/js/2.7a3fa629.chunk.js": "/SIGNLL-Fall-2020/static/js/2.7a3fa629.chunk.js",
-    "static/js/2.7a3fa629.chunk.js.map": "/SIGNLL-Fall-2020/static/js/2.7a3fa629.chunk.js.map",
-    "static/js/3.7337f93d.chunk.js": "/SIGNLL-Fall-2020/static/js/3.7337f93d.chunk.js",
-    "static/js/3.7337f93d.chunk.js.map": "/SIGNLL-Fall-2020/static/js/3.7337f93d.chunk.js.map",
+    "static/js/2.2c7748fc.chunk.js": "/SIGNLL-Fall-2020/static/js/2.2c7748fc.chunk.js",
+    "static/js/2.2c7748fc.chunk.js.map": "/SIGNLL-Fall-2020/static/js/2.2c7748fc.chunk.js.map",
+    "static/js/3.6fe236ee.chunk.js": "/SIGNLL-Fall-2020/static/js/3.6fe236ee.chunk.js",
+    "static/js/3.6fe236ee.chunk.js.map": "/SIGNLL-Fall-2020/static/js/3.6fe236ee.chunk.js.map",
     "index.html": "/SIGNLL-Fall-2020/index.html",
     "static/css/2.8e0fee1b.chunk.css.map": "/SIGNLL-Fall-2020/static/css/2.8e0fee1b.chunk.css.map",
     "static/css/main.2912577f.chunk.css.map": "/SIGNLL-Fall-2020/static/css/main.2912577f.chunk.css.map",
-    "static/js/2.7a3fa629.chunk.js.LICENSE.txt": "/SIGNLL-Fall-2020/static/js/2.7a3fa629.chunk.js.LICENSE.txt",
+    "static/js/2.2c7748fc.chunk.js.LICENSE.txt": "/SIGNLL-Fall-2020/static/js/2.2c7748fc.chunk.js.LICENSE.txt",
     "static/media/chatbotp1.e71174cd.png": "/SIGNLL-Fall-2020/static/media/chatbotp1.e71174cd.png",
     "static/media/chatbotp2.411c6df8.png": "/SIGNLL-Fall-2020/static/media/chatbotp2.411c6df8.png",
     "static/media/intro.b3b837b0.png": "/SIGNLL-Fall-2020/static/media/intro.b3b837b0.png",
@@ -26,10 +26,10 @@
     "static/media/trie.e9523b7f.png": "/SIGNLL-Fall-2020/static/media/trie.e9523b7f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6e2cc660.js",
+    "static/js/runtime-main.55253239.js",
     "static/css/2.8e0fee1b.chunk.css",
-    "static/js/2.7a3fa629.chunk.js",
+    "static/js/2.2c7748fc.chunk.js",
     "static/css/main.2912577f.chunk.css",
-    "static/js/main.4cdb3356.chunk.js"
+    "static/js/main.e4518cf4.chunk.js"
   ]
 }

@@ -6,7 +6,13 @@ import Canvas from "./canvas.js";
 import { Container } from "react-bootstrap";
 
 class HandwrittenDigit extends Component {
-  state = {};
+  state = {
+    barGraph: null,
+  };
+
+  setBarGraph = (graph) => {
+    this.setState({ barGraph: graph });
+  };
 
   render() {
     return (
@@ -19,6 +25,10 @@ class HandwrittenDigit extends Component {
           subtitle={this.props.subtitle}
           badges={this.props.badges}
         />
+        <br></br>
+        <h5>
+          <b>Note: this page is still heavily a work in progress</b>
+        </h5>
         <br></br>
         <br></br>
         <Canvas />

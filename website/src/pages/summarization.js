@@ -5,6 +5,7 @@ import { Container } from "react-bootstrap";
 import Tab from "../components/tabs.js";
 import Notebook from "../components/notebook.js";
 import Slides from "../components/slides.js";
+import WikiSummary from "../components/wiki_summarization.js";
 
 class Summarization extends Component {
   componentDidMount() {
@@ -58,16 +59,39 @@ class Summarization extends Component {
             badges={{
               title: "textsummarization",
               badges: [
-                { label: "customer support chatbot", type: "topic" },
-                { label: "neural networks", type: "topic" },
-                { label: "bag of words", type: "topic" },
-                { label: "multi-classification", type: "topic" },
+                { label: "text summarization", type: "topic" },
+                { label: "frequency dictionary", type: "topic" },
+                { label: "word embeddings", type: "topic" },
+                { label: "web scraping", type: "topic" },
                 { label: "python", type: "language" },
                 { label: "numpy", type: "language" },
-                { label: "keras", type: "language" },
-                { label: "tensorflow", type: "language" },
                 { label: "nltk", type: "language" },
-                { label: "json", type: "language" },
+                { label: "pandas", type: "language" },
+                { label: "beautifulsoup4", type: "language" },
+              ],
+            }}
+          />
+        ),
+      },
+      {
+        name: "Summary Visualization",
+        component: (
+          <WikiSummary
+            title="Text Summarization"
+            titleKey="Demo"
+            subtitle="In this demo, you'll be able to visualize how the summarization algorithm works!"
+            badges={{
+              title: "textsummarization",
+              badges: [
+                { label: "text summarization", type: "topic" },
+                { label: "frequency dictionary", type: "topic" },
+                { label: "word embeddings", type: "topic" },
+                { label: "web scraping", type: "topic" },
+                { label: "python", type: "language" },
+                { label: "numpy", type: "language" },
+                { label: "nltk", type: "language" },
+                { label: "pandas", type: "language" },
+                { label: "beautifulsoup4", type: "language" },
               ],
             }}
           />

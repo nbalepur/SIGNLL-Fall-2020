@@ -7,6 +7,7 @@ import ArrowButtons from "./arrow_buttons.js";
 
 import LoadAnimation from "./animations/load_animation.js";
 import WordWeightAnimation from "./animations/word_weight_animation.js";
+import SortAnimation from "./animations/sort_animation.js";
 
 import Delayed from "../Delayed.jsx";
 
@@ -66,7 +67,7 @@ class WikiSummary extends Component {
             <div class="row">
               <div class="col-xl-1"></div>
               <div class="col-xl-10">
-                <LoadAnimation />
+                <SortAnimation />
               </div>
               <div class="col-xl-1"></div>
             </div>

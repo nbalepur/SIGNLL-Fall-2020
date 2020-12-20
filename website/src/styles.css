@@ -50,3 +50,9 @@
 .predict-button {
   padding-top: 5px;
 }
+
+.word-weight {
+  background-color: transparent;
+  -webkit-transition: background-color 2s; /* For Safari 3.1 to 6.0 */
+  transition: background-color 2s;
+}

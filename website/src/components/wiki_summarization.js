@@ -2,13 +2,11 @@ import React, { Component } from "react";
 
 import { Container } from "react-bootstrap";
 
-import {
-  wiki_article,
-  wiki_article_word_color,
-} from "../backend/storage/summarization_storage.js";
-
 import Subheader from "./subheader.js";
 import ArrowButtons from "./arrow_buttons.js";
+
+import LoadAnimation from "./animations/load_animation.js";
+import WordWeightAnimation from "./animations/word_weight_animation.js";
 
 import Delayed from "../Delayed.jsx";
 
@@ -22,10 +20,6 @@ class WikiSummary extends Component {
   };
 
   render() {
-    if (document.getElementById("wiki-uncolored") !== null) {
-      console.log("howdy");
-    }
-
     return (
       <Container>
         <br></br>
@@ -72,11 +66,7 @@ class WikiSummary extends Component {
             <div class="row">
               <div class="col-xl-1"></div>
               <div class="col-xl-10">
-                {this.state.loadArticle
-                  ? wiki_article
-                  : this.state.calcWeights
-                  ? wiki_article_word_color
-                  : ""}
+                <LoadAnimation />
               </div>
               <div class="col-xl-1"></div>
             </div>

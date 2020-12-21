@@ -9,12 +9,13 @@ import LoadAnimation from "./animations/load_animation.js";
 import WordWeightAnimation from "./animations/word_weight_animation.js";
 import SortAnimation from "./animations/sort_animation.js";
 
-import Delayed from "../Delayed.jsx";
+import SummaryCompare from "./summary_compare.js";
 
 class WikiSummary extends Component {
   state = {
     viewType: "",
     currentAnimation: "",
+    showWords: true,
   };
 
   playAnimation = () => {
@@ -24,11 +25,19 @@ class WikiSummary extends Component {
 
     setTimeout(() => {
       this.setState({ currentAnimation: "Sentence Weights" });
-    }, 5500);
+    }, 7500);
 
     setTimeout(() => {
       this.setState({ currentAnimation: "Sort Sentences" });
-    }, 11500);
+    }, 13500);
+  };
+
+  setView = (view) => {
+    this.setState({ viewType: view });
+  };
+
+  updateShowWords = (val) => {
+    this.setState({ showWords: val });
   };
 
   render() {
@@ -49,6 +58,10 @@ class WikiSummary extends Component {
         <ArrowButtons
           currentAnimation={this.state.currentAnimation}
           playAnimation={this.playAnimation}
+          setView={this.setView}
+          viewType={this.state.viewType}
+          updateShowWords={this.updateShowWords}
+          showWords={this.state.showWords}
           names={["Load Wiki Article", "Sentence Weights", "Sort Sentences"]}
           stateChanges={[
             () => {
@@ -65,21 +78,27 @@ class WikiSummary extends Component {
 
         <hr></hr>
 
-        <div class="row">
-          <div class="col-xl-1"></div>
-          <div class="col-xl-10">
-            {this.state.currentAnimation === "Load Wiki Article" ? (
-              <LoadAnimation />
-            ) : this.state.currentAnimation === "Sentence Weights" ? (
-              <WordWeightAnimation />
-            ) : this.state.currentAnimation === "Sort Sentences" ? (
-              <SortAnimation />
-            ) : (
-              ""
-            )}
+        {this.state.viewType === "animation" && (
+          <div class="row">
+            <div class="col-xl-1"></div>
+            <div class="col-xl-10">
+              {this.state.currentAnimation === "Load Wiki Article" ? (
+                <LoadAnimation />
+              ) : this.state.currentAnimation === "Sentence Weights" ? (
+                <WordWeightAnimation />
+              ) : this.state.currentAnimation === "Sort Sentences" ? (
+                <SortAnimation />
+              ) : (
+                ""
+              )}
+            </div>
+            <div class="col-xl-1"></div>
           </div>
-          <div class="col-xl-1"></div>
-        </div>
+        )}
+
+        {this.state.viewType === "compare" && (
+          <SummaryCompare showWords={this.state.showWords} />
+        )}
 
         <br></br>
         <br></br>

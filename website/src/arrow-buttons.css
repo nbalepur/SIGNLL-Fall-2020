@@ -243,3 +243,7 @@
 .btn-group > .btn:not(.btn-arrow-right):not(.btn-arrow-left) {
   z-index: 1;
 }
+
+.summary-compare-switch {
+  padding-top: 10px;
+}

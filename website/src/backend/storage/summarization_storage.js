@@ -3,7 +3,7 @@ import FadeIn from "react-fade-in";
 import "../../styles.css";
 
 export const wiki_article = (
-  <FadeIn delay={100}>
+  <FadeIn delay={75}>
     <p>
       Natural language processing (NLP) is a subfield of linguistics, computer
       science, and artificial intelligence concerned with the interactions

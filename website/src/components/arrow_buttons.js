@@ -2,6 +2,8 @@ import React, { Component } from "react";
 
 import FadeIn from "react-fade-in";
 
+import BootstrapSwitchButton from "bootstrap-switch-button-react";
+
 import "../arrow-buttons.css";
 
 class ArrowButtons extends Component {
@@ -20,7 +22,11 @@ class ArrowButtons extends Component {
           class="btn btn btn-primary btn-arrow-right"
           style={{
             backgroundColor:
-              this.props.currentAnimation == names[name_index]
+              this.props.currentAnimation === names[name_index]
+                ? "#2185c5"
+                : "#71bceb",
+            borderColor:
+              this.props.currentAnimation === names[name_index]
                 ? "#2185c5"
                 : "#71bceb",
           }}
@@ -42,7 +48,10 @@ class ArrowButtons extends Component {
             type="button"
             class="btn btn-info btn-sm"
             id="play-animation"
-            onClick={this.props.playAnimation}
+            onClick={() => {
+              this.props.setView("animation");
+              this.props.playAnimation();
+            }}
           >
             Play Animation
           </button>{" "}
@@ -50,14 +59,32 @@ class ArrowButtons extends Component {
             type="button"
             class="btn btn-info btn-sm"
             id="compare-summary"
+            onClick={() => {
+              this.props.setView("compare");
+            }}
           >
             Compare Summary
           </button>
         </div>
-        {this.props.currentAnimation !== "" && (
+        {this.props.viewType === "animation" && (
           <div class="col-lg-12" align="center">
             <FadeIn>
               <div>{this.createButtons()}</div>
+            </FadeIn>
+          </div>
+        )}
+        {this.props.viewType === "compare" && (
+          <div class="col-md-12 summary-compare-switch" align="center">
+            <FadeIn>
+              <BootstrapSwitchButton
+                checked={this.props.showWords}
+                onlabel="Word Weights"
+                offlabel="Sentence Weights"
+                width={200}
+                onChange={(active) => {
+                  this.props.updateShowWords(active);
+                }}
+              />
             </FadeIn>
           </div>
         )}

@@ -78,8 +78,22 @@ class Summarization extends Component {
         component: (
           <WikiSummary
             title="Text Summarization"
-            titleKey="Demo"
-            subtitle="In this demo, you'll be able to visualize how the summarization algorithm works!"
+            titleKey="Visualization"
+            subtitle={
+              <span>
+                In this demo, you'll be able to visualize how the summarization
+                algorithm works! This demo uses a wikipedia article on{" "}
+                <a
+                  target={"_blank"}
+                  href={
+                    "https://en.wikipedia.org/wiki/Natural_language_processing"
+                  }
+                >
+                  NLP
+                </a>
+                , but in the notebook you can use any article you like
+              </span>
+            }
             badges={{
               title: "textsummarization",
               badges: [

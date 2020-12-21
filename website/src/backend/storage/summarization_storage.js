@@ -8,9 +8,15 @@ export const wiki_article = (
       Natural language processing (NLP) is a subfield of linguistics, computer
       science, and artificial intelligence concerned with the interactions
       between computers and human language, in particular how to program
-      computers to process and analyze large amounts of natural language data.
+      computers to process and analyze large amounts of natural language data.{" "}
+    </p>
+    <p></p>
+    <p>
       The result is a computer capable of ‘understanding’ the contents of
-      documents, including the contextual nuances of the language within them.
+      documents, including the contextual nuances of the language within them.{" "}
+    </p>
+    <p></p>
+    <p>
       The technology can then accurately extract information and insights
       contained in the documents as well as categorize and organize the
       documents themselves.{" "}
@@ -22,11 +28,12 @@ export const wiki_article = (
       generation.{" "}
     </p>
     <p></p>
+    <p>Natural language processing has its roots in the 1950s. </p>
+    <p></p>
     <p>
-      Natural language processing has its roots in the 1950s. Already in 1950,
-      Alan Turing published an article titled "Computing Machinery and
-      Intelligence" which proposed what is now called the Turing test as a
-      criterion of intelligence, a task that involves the automated
+      Already in 1950, Alan Turing published an article titled "Computing
+      Machinery and Intelligence" which proposed what is now called the Turing
+      test as a criterion of intelligence, a task that involves the automated
       interpretation and generation of natural language, but at the time not
       articulated as a problem separate from artificial intelligence.{" "}
     </p>
@@ -41,14 +48,25 @@ export const wiki_article = (
     <p></p>
     <p>
       Up to the 1980s, most natural language processing systems were based on
-      complex sets of hand-written rules. Starting in the late 1980s, however,
-      there was a revolution in natural language processing with the
-      introduction of machine learning algorithms for language processing. This
-      was due to both the steady increase in computational power (see Moore's
-      law) and the gradual lessening of the dominance of Chomskyan theories of
-      linguistics (e.g. transformational grammar), whose theoretical
-      underpinnings discouraged the sort of corpus linguistics that underlies
-      the machine-learning approach to language processing.{" "}
+      complex sets of hand-written rules.{" "}
+    </p>
+    <p></p>
+    <p>
+      Starting in the late 1980s, however, there was a revolution in natural
+      language processing with the introduction of machine learning algorithms
+      for language processing.{" "}
+    </p>
+    <p></p>
+    <p>
+      This was due to both the steady increase in computational power (see
+      Moore's law) and the gradual lessening of the dominance of Chomskyan
+      theories of linguistics (e.g.{" "}
+    </p>
+    <p></p>
+    <p>
+      transformational grammar), whose theoretical underpinnings discouraged the
+      sort of corpus linguistics that underlies the machine-learning approach to
+      language processing.{" "}
     </p>
     <p></p>
     <p>
@@ -68,120 +86,178 @@ export const wiki_article = (
     <p></p>
     <p>
       More recent systems based on machine-learning algorithms have many
-      advantages over hand-produced rules:{" "}
-    </p>
-    <p></p>
-    <p>
-      Despite the popularity of machine learning in NLP research, symbolic
-      methods are still (2020) commonly used{" "}
-    </p>
-    <p></p>
-    <p>
+      advantages over hand-produced rules: Despite the popularity of machine
+      learning in NLP research, symbolic methods are still (2020) commonly used
       Since the so-called "statistical revolution" in the late 1980s and
       mid-1990s, much natural language processing research has relied heavily on
-      machine learning. The machine-learning paradigm calls instead for using
-      statistical inference to automatically learn such rules through the
-      analysis of large corpora (the plural form of corpus, is a set of
-      documents, possibly with human or computer annotations) of typical
-      real-world examples.{" "}
+      machine learning.{" "}
+    </p>
+    <p></p>
+    <p>
+      The machine-learning paradigm calls instead for using statistical
+      inference to automatically learn such rules through the analysis of large
+      corpora (the plural form of corpus, is a set of documents, possibly with
+      human or computer annotations) of typical real-world examples.{" "}
     </p>
     <p></p>
     <p>
       Many different classes of machine-learning algorithms have been applied to
-      natural-language-processing tasks. These algorithms take as input a large
-      set of "features" that are generated from the input data. Increasingly,
-      however, research has focused on statistical models, which make soft,
-      probabilistic decisions based on attaching real-valued weights to each
-      input feature. Such models have the advantage that they can express the
-      relative certainty of many different possible answers rather than only
-      one, producing more reliable results when such a model is included as a
+      natural-language-processing tasks.{" "}
+    </p>
+    <p></p>
+    <p>
+      These algorithms take as input a large set of "features" that are
+      generated from the input data.{" "}
+    </p>
+    <p></p>
+    <p>
+      Increasingly, however, research has focused on statistical models, which
+      make soft, probabilistic decisions based on attaching real-valued weights
+      to each input feature.{" "}
+    </p>
+    <p></p>
+    <p>
+      Such models have the advantage that they can express the relative
+      certainty of many different possible answers rather than only one,
+      producing more reliable results when such a model is included as a
       component of a larger system.{" "}
     </p>
     <p></p>
     <p>
       Some of the earliest-used machine learning algorithms, such as decision
       trees, produced systems of hard if-then rules similar to existing
-      hand-written rules. However, part-of-speech tagging introduced the use of
-      hidden Markov models to natural language processing, and increasingly,
-      research has focused on statistical models, which make soft, probabilistic
-      decisions based on attaching real-valued weights to the features making up
-      the input data. The cache language models upon which many speech
-      recognition systems now rely are examples of such statistical models. Such
-      models are generally more robust when given unfamiliar input, especially
-      input that contains errors (as is very common for real-world data), and
-      produce more reliable results when integrated into a larger system
-      comprising multiple subtasks.{" "}
+      hand-written rules.{" "}
+    </p>
+    <p></p>
+    <p>
+      However, part-of-speech tagging introduced the use of hidden Markov models
+      to natural language processing, and increasingly, research has focused on
+      statistical models, which make soft, probabilistic decisions based on
+      attaching real-valued weights to the features making up the input data.{" "}
+    </p>
+    <p></p>
+    <p>
+      The cache language models upon which many speech recognition systems now
+      rely are examples of such statistical models.{" "}
+    </p>
+    <p></p>
+    <p>
+      Such models are generally more robust when given unfamiliar input,
+      especially input that contains errors (as is very common for real-world
+      data), and produce more reliable results when integrated into a larger
+      system comprising multiple subtasks.{" "}
     </p>
     <p></p>
     <p>
       Since the neural turn, statistical methods in NLP research have been
-      largely replaced by neural networks. However, they continue to be relevant
-      for contexts in which statistical interpretability and transparency is
-      required.{" "}
+      largely replaced by neural networks.{" "}
+    </p>
+    <p></p>
+    <p>
+      However, they continue to be relevant for contexts in which statistical
+      interpretability and transparency is required.{" "}
     </p>
     <p></p>
     <p>
       A major drawback of statistical methods is that they require elaborate
-      feature engineering. Since the early 2010s, the field has thus largely
-      abandoned statistical methods and shifted to neural networks for machine
-      learning. Popular techniques include the use of word embeddings to capture
-      semantic properties of words, and an increase in end-to-end learning of a
+      feature engineering.{" "}
+    </p>
+    <p></p>
+    <p>
+      Since the early 2010s, the field has thus largely abandoned statistical
+      methods and shifted to neural networks for machine learning.{" "}
+    </p>
+    <p></p>
+    <p>
+      Popular techniques include the use of word embeddings to capture semantic
+      properties of words, and an increase in end-to-end learning of a
       higher-level task (e.g., question answering) instead of relying on a
       pipeline of separate intermediate tasks (e.g., part-of-speech tagging and
-      dependency parsing). In some areas, this shift has entailed substantial
-      changes in how NLP systems are designed, such that deep neural
-      network-based approaches may be viewed as a new paradigm distinct from
-      statistical natural language processing. For instance, the term neural
-      machine translation (NMT) emphasizes the fact that deep learning-based
-      approaches to machine translation directly learn sequence-to-sequence
-      transformations, obviating the need for intermediate steps such as word
-      alignment and language modeling that was used in statistical machine
-      translation (SMT).{" "}
+      dependency parsing).{" "}
+    </p>
+    <p></p>
+    <p>
+      In some areas, this shift has entailed substantial changes in how NLP
+      systems are designed, such that deep neural network-based approaches may
+      be viewed as a new paradigm distinct from statistical natural language
+      processing.{" "}
+    </p>
+    <p></p>
+    <p>
+      For instance, the term neural machine translation (NMT) emphasizes the
+      fact that deep learning-based approaches to machine translation directly
+      learn sequence-to-sequence transformations, obviating the need for
+      intermediate steps such as word alignment and language modeling that was
+      used in statistical machine translation (SMT).{" "}
     </p>
     <p></p>
     <p>
       The following is a list of some of the most commonly researched tasks in
-      natural language processing. Some of these tasks have direct real-world
-      applications, while others more commonly serve as subtasks that are used
-      to aid in solving larger tasks.{" "}
+      natural language processing.{" "}
+    </p>
+    <p></p>
+    <p>
+      Some of these tasks have direct real-world applications, while others more
+      commonly serve as subtasks that are used to aid in solving larger tasks.{" "}
     </p>
     <p></p>
     <p>
       Though natural language processing tasks are closely intertwined, they can
-      be subdivided into categories for convenience. A coarse division is given
-      below.{" "}
+      be subdivided into categories for convenience.{" "}
     </p>
+    <p></p>
+    <p>A coarse division is given below. </p>
     <p></p>
     <p>
       Cognition refers to "the mental action or process of acquiring knowledge
-      and understanding through thought, experience, and the senses." Cognitive
-      science is the interdisciplinary, scientific study of the mind and its
-      processes. Cognitive linguistics is an interdisciplinary branch of
-      linguistics, combining knowledge and research from both psychology and
-      linguistics. George Lakoff offers a methodology to build Natural language
-      processing (NLP) algorithms through the perspective of Cognitive science,
-      along with the findings of Cognitive linguistics:{" "}
+      and understanding through thought, experience, and the senses."{" "}
     </p>
     <p></p>
     <p>
-      The first defining aspect of this cognitive task of NLP is the application
-      of the theory of Conceptual metaphor, explained by Lakoff as “the
-      understanding of one idea, in terms of another” which provides an idea of
-      the intent of the author.{" "}
+      Cognitive science is the interdisciplinary, scientific study of the mind
+      and its processes.{" "}
     </p>
     <p></p>
     <p>
-      For example, consider some of the meanings, in English, of the word “big”.
+      Cognitive linguistics is an interdisciplinary branch of linguistics,
+      combining knowledge and research from both psychology and linguistics.{" "}
+    </p>
+    <p></p>
+    <p>
+      George Lakoff offers a methodology to build Natural language processing
+      (NLP) algorithms through the perspective of Cognitive science, along with
+      the findings of Cognitive linguistics: The first defining aspect of this
+      cognitive task of NLP is the application of the theory of Conceptual
+      metaphor, explained by Lakoff as “the understanding of one idea, in terms
+      of another” which provides an idea of the intent of the author.{" "}
+    </p>
+    <p></p>
+    <p>
+      For example, consider some of the meanings, in English, of the word “big”.{" "}
+    </p>
+    <p></p>
+    <p>
       When used as a Comparative, as in “That is a big tree,” a likely inference
       of the intent of the author is that the author is using the word “big” to
       imply a statement about the tree being ”physically large” in comparison to
-      other trees or the authors experience. When used as a Stative verb, as in
-      ”Tomorrow is a big day”, a likely inference of the author’s intent it that
-      ”big” is being used to imply ”importance”. These examples are not
-      presented to be complete, but merely as indicators of the implication of
-      the idea of Conceptual metaphor. The intent behind other usages, like in
-      ”She is a big person” will remain somewhat ambiguous to a person and a
-      cognitive NLP algorithm alike without additional information.{" "}
+      other trees or the authors experience.{" "}
+    </p>
+    <p></p>
+    <p>
+      When used as a Stative verb, as in ”Tomorrow is a big day”, a likely
+      inference of the author’s intent it that ”big” is being used to imply
+      ”importance”.{" "}
+    </p>
+    <p></p>
+    <p>
+      These examples are not presented to be complete, but merely as indicators
+      of the implication of the idea of Conceptual metaphor.{" "}
+    </p>
+    <p></p>
+    <p>
+      The intent behind other usages, like in ”She is a big person” will remain
+      somewhat ambiguous to a person and a cognitive NLP algorithm alike without
+      additional information.{" "}
     </p>
     <p></p>
     <p>
@@ -189,15 +265,15 @@ export const wiki_article = (
       namely Probabilistic context-free grammar (PCFG) which enables cognitive
       NLP algorithms to assign relative measures of meaning to a word, phrase,
       sentence or piece of text based on the information presented before and
-      after the piece of text being analyzed. The mathematical equation for such
-      algorithms is presented in US patent 9269353 :{" "}
+      after the piece of text being analyzed.{" "}
     </p>
     <p></p>
     <p>
-      Where, RMM, is the Relative Measure of Meaning token, is any block of
-      text, sentence, phrase or word N, is the number of tokens being analyzed
-      PMM, is the Probable Measure of Meaning based on a corpora d, is the
-      location of the token along the sequence of N-1 tokens PF, is the
+      The mathematical equation for such algorithms is presented in US patent
+      9269353 Where, RMM, is the Relative Measure of Meaning token, is any block
+      of text, sentence, phrase or word N, is the number of tokens being
+      analyzed PMM, is the Probable Measure of Meaning based on a corpora d, is
+      the location of the token along the sequence of N-1 tokens PF, is the
       Probability Function specific to a language{" "}
     </p>
     <p></p>
@@ -2946,5392 +3022,676 @@ export const wiki_article_word_color = (
   </div>
 );
 
-export const wiki_sentence_sort = [
-  <p class="word-weight-6.892857142857143">
-    <span style={{ backgroundColor: "#ef665e" }}>Natural</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>language</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>processing</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>(NLP)</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>is</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>a</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>subfield</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>of</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>linguistics,</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>computer</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>science,</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>and</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>artificial</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>intelligence</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>concerned</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>with</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>the</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>interactions</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>between</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>computers</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>and</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>human</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>language,</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>in</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>particular</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>how</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>to</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>program</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>computers</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>to</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>process</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>and</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>analyze</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>large</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>amounts</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>of</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>natural</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>language</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>data.</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-  </p>,
-  <p class="word-weight-1.7142857142857142">
-    <span style={{ backgroundColor: "#eeb0ac" }}>The</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>result</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>is</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>a</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>computer</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>capable</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>of</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>‘understanding’</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>the</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>contents</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>of</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>documents,</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>including</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>the</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>contextual</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>nuances</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>of</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>the</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>language</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>within</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>them.</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-  </p>,
-  <p class="word-weight-0.7142857142857142">
-    <span style={{ backgroundColor: "#f4d7d5" }}>The</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>technology</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>can</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>then</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>accurately</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>extract</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>information</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>and</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>insights</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>contained</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>in</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>the</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>documents</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>as</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>well</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>as</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>categorize</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>and</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>organize</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>the</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>documents</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>themselves.</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-  </p>,
-  <p class="word-weight-6.178571428571429">
-    <span style={{ backgroundColor: "#ee6b63" }}>Challenges</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>in</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>natural</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>language</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>processing</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>frequently</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>involve</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>speech</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>recognition,</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>natural</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>language</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>understanding,</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>and</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>natural-language</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>generation.</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-  </p>,
-  <p class="word-weight-2.321428571428571">
-    <span style={{ backgroundColor: "#ed9f9b" }}>Natural</span>
-    <span style={{ backgroundColor: "#ed9f9b" }}> </span>
-    <span style={{ backgroundColor: "#ed9f9b" }}>language</span>
-    <span style={{ backgroundColor: "#ed9f9b" }}> </span>
-    <span style={{ backgroundColor: "#ed9f9b" }}>processing</span>
-    <span style={{ backgroundColor: "#ed9f9b" }}> </span>
-    <span style={{ backgroundColor: "#ed9f9b" }}>has</span>
-    <span style={{ backgroundColor: "#ed9f9b" }}> </span>
-    <span style={{ backgroundColor: "#ed9f9b" }}>its</span>
-    <span style={{ backgroundColor: "#ed9f9b" }}> </span>
-    <span style={{ backgroundColor: "#ed9f9b" }}>roots</span>
-    <span style={{ backgroundColor: "#ed9f9b" }}> </span>
-    <span style={{ backgroundColor: "#ed9f9b" }}>in</span>
-    <span style={{ backgroundColor: "#ed9f9b" }}> </span>
-    <span style={{ backgroundColor: "#ed9f9b" }}>the</span>
-    <span style={{ backgroundColor: "#ed9f9b" }}> </span>
-    <span style={{ backgroundColor: "#ed9f9b" }}>1950s.</span>
-    <span style={{ backgroundColor: "#ed9f9b" }}> </span>
-  </p>,
-  <p class="word-weight-0.0">
-    <span style={{ backgroundColor: "#f7e5e4" }}>Already</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>in</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>1950,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Alan</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Turing</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>published</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>an</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>article</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>titled</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>"Computing</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Machinery</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>and</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Intelligence"</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>which</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>proposed</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>what</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>now</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>called</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Turing</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>test</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>as</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>criterion</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>intelligence,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>task</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>that</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>involves</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>automated</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>interpretation</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>and</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>generation</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>natural</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>language,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>but</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>at</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>time</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>not</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>articulated</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>as</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>problem</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>separate</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>from</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>artificial</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>intelligence.</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-  </p>,
-  <p class="word-weight-0.0">
-    <span style={{ backgroundColor: "#f7e5e4" }}>The</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>premise</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>symbolic</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>NLP</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>well-summarized</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>by</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>John</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Searle's</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Chinese</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>room</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>experiment:</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Given</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>collection</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>rules</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>(e.g.,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Chinese</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>phrasebook,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>with</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>questions</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>and</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>matching</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>answers),</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>computer</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>emulates</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>natural</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>language</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>understanding</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>(or</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>other</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>NLP</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>tasks)</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>by</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>applying</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>those</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>rules</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>data</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>it</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>confronted</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>with.</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-  </p>,
-  <p class="word-weight-3.464285714285714">
-    <span style={{ backgroundColor: "#ed817b" }}>Up</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>to</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>the</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>1980s,</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>most</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>natural</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>language</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>processing</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>systems</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>were</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>based</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>on</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>complex</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>sets</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>of</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>hand-written</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>rules.</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-  </p>,
-  <p class="word-weight-5.5">
-    <span style={{ backgroundColor: "#ee6f68" }}>Starting</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>in</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>the</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>late</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>1980s,</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>however,</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>there</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>was</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>a</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>revolution</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>in</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>natural</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>language</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>processing</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>with</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>the</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>introduction</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>of</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>machine</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>learning</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>algorithms</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>for</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>language</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>processing.</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-  </p>,
-  <p class="word-weight-1.107142857142857">
-    <span style={{ backgroundColor: "#f2cbc9" }}>This</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>was</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>due</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>to</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>both</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>the</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>steady</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>increase</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>in</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>computational</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>power</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>(see</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>Moore's</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>law)</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>and</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>the</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>gradual</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>lessening</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>of</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>the</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>dominance</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>of</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>Chomskyan</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>theories</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>of</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>linguistics</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>(e.g.</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-  </p>,
-  <p class="word-weight-3.178571428571429">
-    <span style={{ backgroundColor: "#ed8680" }}>transformational</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>grammar),</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>whose</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>theoretical</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>underpinnings</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>discouraged</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>the</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>sort</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>of</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>corpus</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>linguistics</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>that</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>underlies</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>the</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>machine-learning</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>approach</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>to</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>language</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>processing.</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-  </p>,
-  <p class="word-weight-0.0">
-    <span style={{ backgroundColor: "#f7e5e4" }}>In</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>2010s,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>representation</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>learning</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>and</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>deep</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>neural</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>network-style</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>machine</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>learning</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>methods</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>became</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>widespread</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>in</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>natural</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>language</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>processing,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>due</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>in</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>part</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>flurry</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>results</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>showing</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>that</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>such</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>techniques</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>can</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>achieve</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>state-of-the-art</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>results</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>in</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>many</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>natural</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>language</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>tasks,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>for</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>example</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>in</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>language</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>modeling,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>parsing,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>and</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>many</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>others.</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-  </p>,
-  <p class="word-weight-3.928571428571428">
-    <span style={{ backgroundColor: "#ed7d76" }}>In</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>the</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>early</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>days,</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>many</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>language-processing</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>systems</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>were</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>designed</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>by</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>symbolic</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>methods,</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>i.e.,</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>the</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>hand-coding</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>of</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>a</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>set</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>of</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>rules,</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>coupled</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>with</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>a</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>dictionary</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>lookup:</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>such</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>as</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>by</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>writing</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>grammars</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>or</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>devising</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>heuristic</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>rules</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>for</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>stemming.</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-  </p>,
-  <p class="word-weight-0.0">
-    <span style={{ backgroundColor: "#f7e5e4" }}>More</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>recent</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>systems</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>based</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>on</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>machine-learning</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>algorithms</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>have</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>many</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>advantages</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>over</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>hand-produced</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>rules:</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Despite</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>popularity</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>machine</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>learning</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>in</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>NLP</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>research,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>symbolic</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>methods</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>are</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>still</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>(2020)</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>commonly</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>used</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Since</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>so-called</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>"statistical</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>revolution"</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>in</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>late</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>1980s</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>and</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>mid-1990s,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>much</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>natural</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>language</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>processing</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>research</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>has</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>relied</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>heavily</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>on</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>machine</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>learning.</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-  </p>,
-  <p class="word-weight-0.0">
-    <span style={{ backgroundColor: "#f7e5e4" }}>The</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>machine-learning</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>paradigm</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>calls</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>instead</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>for</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>using</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>statistical</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>inference</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>automatically</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>learn</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>such</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>rules</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>through</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>analysis</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>large</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>corpora</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>(the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>plural</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>form</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>corpus,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>set</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>documents,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>possibly</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>with</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>human</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>or</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>computer</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>annotations)</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>typical</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>real-world</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>examples.</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-  </p>,
-  <p class="word-weight-4.142857142857142">
-    <span style={{ backgroundColor: "#ee7872" }}>Many</span>
-    <span style={{ backgroundColor: "#ee7872" }}> </span>
-    <span style={{ backgroundColor: "#ee7872" }}>different</span>
-    <span style={{ backgroundColor: "#ee7872" }}> </span>
-    <span style={{ backgroundColor: "#ee7872" }}>classes</span>
-    <span style={{ backgroundColor: "#ee7872" }}> </span>
-    <span style={{ backgroundColor: "#ee7872" }}>of</span>
-    <span style={{ backgroundColor: "#ee7872" }}> </span>
-    <span style={{ backgroundColor: "#ee7872" }}>machine-learning</span>
-    <span style={{ backgroundColor: "#ee7872" }}> </span>
-    <span style={{ backgroundColor: "#ee7872" }}>algorithms</span>
-    <span style={{ backgroundColor: "#ee7872" }}> </span>
-    <span style={{ backgroundColor: "#ee7872" }}>have</span>
-    <span style={{ backgroundColor: "#ee7872" }}> </span>
-    <span style={{ backgroundColor: "#ee7872" }}>been</span>
-    <span style={{ backgroundColor: "#ee7872" }}> </span>
-    <span style={{ backgroundColor: "#ee7872" }}>applied</span>
-    <span style={{ backgroundColor: "#ee7872" }}> </span>
-    <span style={{ backgroundColor: "#ee7872" }}>to</span>
-    <span style={{ backgroundColor: "#ee7872" }}> </span>
-    <span style={{ backgroundColor: "#ee7872" }}>
-      natural-language-processing
+export const wiki_sentence_unsorted = [
+  <p>
+    <span style={{ backgroundColor: "#ef665e" }}>
+      Natural language processing (NLP) is a subfield of linguistics, computer
+      science, and artificial intelligence concerned with the interactions
+      between computers and human language, in particular how to program
+      computers to process and analyze large amounts of natural language data.{" "}
     </span>
-    <span style={{ backgroundColor: "#ee7872" }}> </span>
-    <span style={{ backgroundColor: "#ee7872" }}>tasks.</span>
-    <span style={{ backgroundColor: "#ee7872" }}> </span>
   </p>,
-  <p class="word-weight-1.2857142857142856">
-    <span style={{ backgroundColor: "#f1c8c5" }}>These</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>algorithms</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>take</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>as</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>input</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>a</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>large</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>set</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>of</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>"features"</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>that</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>are</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>generated</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>from</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>the</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>input</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>data.</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#eeb0ac" }}>
+      The result is a computer capable of ‘understanding’ the contents of
+      documents, including the contextual nuances of the language within them.{" "}
+    </span>
   </p>,
-  <p class="word-weight-2.4285714285714293">
-    <span style={{ backgroundColor: "#ed9b97" }}>Increasingly,</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>however,</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>research</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>has</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>focused</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>on</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>statistical</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>models,</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>which</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>make</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>soft,</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>probabilistic</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>decisions</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>based</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>on</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>attaching</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>real-valued</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>weights</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>to</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>each</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>input</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>feature.</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f4d7d5" }}>
+      The technology can then accurately extract information and insights
+      contained in the documents as well as categorize and organize the
+      documents themselves.{" "}
+    </span>
   </p>,
-  <p class="word-weight-1.5357142857142858">
-    <span style={{ backgroundColor: "#f0c0bd" }}>Such</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>models</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>have</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>the</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>advantage</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>that</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>they</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>can</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>express</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>the</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>relative</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>certainty</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>of</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>many</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>different</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>possible</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>answers</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>rather</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>than</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>only</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>one,</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>producing</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>more</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>reliable</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>results</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>when</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>such</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>a</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>model</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>is</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>included</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>as</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>a</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>component</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>of</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>a</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>larger</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>system.</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#ee6b63" }}>
+      Challenges in natural language processing frequently involve speech
+      recognition, natural language understanding, and natural-language
+      generation.{" "}
+    </span>
   </p>,
-  <p class="word-weight-2.857142857142857">
-    <span style={{ backgroundColor: "#ed8a84" }}>Some</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>of</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>the</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>earliest-used</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>machine</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>learning</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>algorithms,</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>such</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>as</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>decision</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>trees,</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>produced</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>systems</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>of</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>hard</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>if-then</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>rules</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>similar</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>to</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>existing</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>hand-written</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>rules.</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#ed9f9b" }}>
+      Natural language processing has its roots in the 1950s.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.0">
-    <span style={{ backgroundColor: "#f7e5e4" }}>However,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>part-of-speech</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>tagging</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>introduced</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>use</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>hidden</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Markov</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>models</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>natural</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>language</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>processing,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>and</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>increasingly,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>research</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>has</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>focused</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>on</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>statistical</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>models,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>which</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>make</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>soft,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>probabilistic</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>decisions</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>based</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>on</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>attaching</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>real-valued</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>weights</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>features</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>making</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>up</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>input</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>data.</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f7e5e4" }}>
+      Already in 1950, Alan Turing published an article titled "Computing
+      Machinery and Intelligence" which proposed what is now called the Turing
+      test as a criterion of intelligence, a task that involves the automated
+      interpretation and generation of natural language, but at the time not
+      articulated as a problem separate from artificial intelligence.{" "}
+    </span>
   </p>,
-  <p class="word-weight-2.7857142857142856">
-    <span style={{ backgroundColor: "#ed8e89" }}>The</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>cache</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>language</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>models</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>upon</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>which</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>many</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>speech</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>recognition</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>systems</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>now</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>rely</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>are</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>examples</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>of</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>such</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>statistical</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>models.</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f7e5e4" }}>
+      The premise of symbolic NLP is well-summarized by John Searle's Chinese
+      room experiment: Given a collection of rules (e.g., a Chinese phrasebook,
+      with questions and matching answers), the computer emulates natural
+      language understanding (or other NLP tasks) by applying those rules to the
+      data it is confronted with.{" "}
+    </span>
   </p>,
-  <p class="word-weight-2.107142857142857">
-    <span style={{ backgroundColor: "#eea8a4" }}>Such</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>models</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>are</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>generally</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>more</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>robust</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>when</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>given</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>unfamiliar</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>input,</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>especially</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>input</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>that</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>contains</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>errors</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>(as</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>is</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>very</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>common</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>for</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>real-world</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>data),</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>and</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>produce</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>more</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>reliable</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>results</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>when</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>integrated</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>into</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>a</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>larger</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>system</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>comprising</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>multiple</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>subtasks.</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#ed817b" }}>
+      Up to the 1980s, most natural language processing systems were based on
+      complex sets of hand-written rules.{" "}
+    </span>
   </p>,
-  <p class="word-weight-1.9642857142857142">
-    <span style={{ backgroundColor: "#eeaca8" }}>Since</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>the</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>neural</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>turn,</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>statistical</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>methods</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>in</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>NLP</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>research</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>have</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>been</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>largely</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>replaced</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>by</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>neural</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>networks.</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#ee6f68" }}>
+      Starting in the late 1980s, however, there was a revolution in natural
+      language processing with the introduction of machine learning algorithms
+      for language processing.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.7499999999999999">
-    <span style={{ backgroundColor: "#f3d3d1" }}>However,</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>they</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>continue</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>to</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>be</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>relevant</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>for</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>contexts</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>in</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>which</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>statistical</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>interpretability</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>and</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>transparency</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>is</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>required.</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f2cbc9" }}>
+      This was due to both the steady increase in computational power (see
+      Moore's law) and the gradual lessening of the dominance of Chomskyan
+      theories of linguistics (e.g.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.8571428571428571">
-    <span style={{ backgroundColor: "#f2cfcd" }}>A</span>
-    <span style={{ backgroundColor: "#f2cfcd" }}> </span>
-    <span style={{ backgroundColor: "#f2cfcd" }}>major</span>
-    <span style={{ backgroundColor: "#f2cfcd" }}> </span>
-    <span style={{ backgroundColor: "#f2cfcd" }}>drawback</span>
-    <span style={{ backgroundColor: "#f2cfcd" }}> </span>
-    <span style={{ backgroundColor: "#f2cfcd" }}>of</span>
-    <span style={{ backgroundColor: "#f2cfcd" }}> </span>
-    <span style={{ backgroundColor: "#f2cfcd" }}>statistical</span>
-    <span style={{ backgroundColor: "#f2cfcd" }}> </span>
-    <span style={{ backgroundColor: "#f2cfcd" }}>methods</span>
-    <span style={{ backgroundColor: "#f2cfcd" }}> </span>
-    <span style={{ backgroundColor: "#f2cfcd" }}>is</span>
-    <span style={{ backgroundColor: "#f2cfcd" }}> </span>
-    <span style={{ backgroundColor: "#f2cfcd" }}>that</span>
-    <span style={{ backgroundColor: "#f2cfcd" }}> </span>
-    <span style={{ backgroundColor: "#f2cfcd" }}>they</span>
-    <span style={{ backgroundColor: "#f2cfcd" }}> </span>
-    <span style={{ backgroundColor: "#f2cfcd" }}>require</span>
-    <span style={{ backgroundColor: "#f2cfcd" }}> </span>
-    <span style={{ backgroundColor: "#f2cfcd" }}>elaborate</span>
-    <span style={{ backgroundColor: "#f2cfcd" }}> </span>
-    <span style={{ backgroundColor: "#f2cfcd" }}>feature</span>
-    <span style={{ backgroundColor: "#f2cfcd" }}> </span>
-    <span style={{ backgroundColor: "#f2cfcd" }}>engineering.</span>
-    <span style={{ backgroundColor: "#f2cfcd" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#ed8680" }}>
+      transformational grammar), whose theoretical underpinnings discouraged the
+      sort of corpus linguistics that underlies the machine-learning approach to
+      language processing.{" "}
+    </span>
   </p>,
-  <p class="word-weight-2.2857142857142856">
-    <span style={{ backgroundColor: "#eea49f" }}>Since</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>the</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>early</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>2010s,</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>the</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>field</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>has</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>thus</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>largely</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>abandoned</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>statistical</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>methods</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>and</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>shifted</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>to</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>neural</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>networks</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>for</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>machine</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>learning.</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f7e5e4" }}>
+      In the 2010s, representation learning and deep neural network-style
+      machine learning methods became widespread in natural language processing,
+      due in part to a flurry of results showing that such techniques can
+      achieve state-of-the-art results in many natural language tasks, for
+      example in language modeling, parsing, and many others.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.0">
-    <span style={{ backgroundColor: "#f7e5e4" }}>Popular</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>techniques</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>include</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>use</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>word</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>embeddings</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>capture</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>semantic</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>properties</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>words,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>and</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>an</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>increase</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>in</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>end-to-end</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>learning</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>higher-level</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>task</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>(e.g.,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>question</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>answering)</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>instead</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>relying</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>on</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>pipeline</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>separate</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>intermediate</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>tasks</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>(e.g.,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>part-of-speech</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>tagging</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>and</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>dependency</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>parsing).</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#ed7d76" }}>
+      In the early days, many language-processing systems were designed by
+      symbolic methods, i.e., the hand-coding of a set of rules, coupled with a
+      dictionary lookup: such as by writing grammars or devising heuristic rules
+      for stemming.{" "}
+    </span>
   </p>,
-  <p class="word-weight-4.464285714285714">
-    <span style={{ backgroundColor: "#ee746d" }}>In</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>some</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>areas,</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>this</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>shift</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>has</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>entailed</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>substantial</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>changes</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>in</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>how</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>NLP</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>systems</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>are</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>designed,</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>such</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>that</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>deep</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>neural</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>network-based</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>approaches</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>may</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>be</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>viewed</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>as</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>a</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>new</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>paradigm</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>distinct</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>from</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>statistical</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>natural</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>language</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>processing.</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f7e5e4" }}>
+      More recent systems based on machine-learning algorithms have many
+      advantages over hand-produced rules: Despite the popularity of machine
+      learning in NLP research, symbolic methods are still (2020) commonly used
+      Since the so-called "statistical revolution" in the late 1980s and
+      mid-1990s, much natural language processing research has relied heavily on
+      machine learning.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.0">
-    <span style={{ backgroundColor: "#f7e5e4" }}>For</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>instance,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>term</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>neural</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>machine</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>translation</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>(NMT)</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>emphasizes</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>fact</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>that</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>deep</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>learning-based</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>approaches</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>machine</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>translation</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>directly</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>learn</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>sequence-to-sequence</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>transformations,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>obviating</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>need</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>for</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>intermediate</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>steps</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>such</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>as</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>word</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>alignment</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>and</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>language</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>modeling</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>that</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>was</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>used</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>in</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>statistical</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>machine</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>translation</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>(SMT).</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f7e5e4" }}>
+      The machine-learning paradigm calls instead for using statistical
+      inference to automatically learn such rules through the analysis of large
+      corpora (the plural form of corpus, is a set of documents, possibly with
+      human or computer annotations) of typical real-world examples.{" "}
+    </span>
   </p>,
-  <p class="word-weight-2.75">
-    <span style={{ backgroundColor: "#ed938d" }}>The</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>following</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>is</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>a</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>list</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>of</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>some</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>of</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>the</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>most</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>commonly</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>researched</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>tasks</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>in</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>natural</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>language</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>processing.</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#ee7872" }}>
+      Many different classes of machine-learning algorithms have been applied to
+      natural-language-processing tasks.{" "}
+    </span>
   </p>,
-  <p class="word-weight-1.6428571428571428">
-    <span style={{ backgroundColor: "#efb8b5" }}>Some</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>of</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>these</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>tasks</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>have</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>direct</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>real-world</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>applications,</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>while</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>others</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>more</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>commonly</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>serve</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>as</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>subtasks</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>that</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>are</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>used</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>to</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>aid</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>in</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>solving</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>larger</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>tasks.</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f1c8c5" }}>
+      These algorithms take as input a large set of "features" that are
+      generated from the input data.{" "}
+    </span>
   </p>,
-  <p class="word-weight-2.749999999999999">
-    <span style={{ backgroundColor: "#ed9792" }}>Though</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>natural</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>language</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>processing</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>tasks</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>are</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>closely</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>intertwined,</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>they</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>can</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>be</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>subdivided</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>into</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>categories</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>for</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>convenience.</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#ed9b97" }}>
+      Increasingly, however, research has focused on statistical models, which
+      make soft, probabilistic decisions based on attaching real-valued weights
+      to each input feature.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.17857142857142855">
-    <span style={{ backgroundColor: "#f6e1e0" }}>A</span>
-    <span style={{ backgroundColor: "#f6e1e0" }}> </span>
-    <span style={{ backgroundColor: "#f6e1e0" }}>coarse</span>
-    <span style={{ backgroundColor: "#f6e1e0" }}> </span>
-    <span style={{ backgroundColor: "#f6e1e0" }}>division</span>
-    <span style={{ backgroundColor: "#f6e1e0" }}> </span>
-    <span style={{ backgroundColor: "#f6e1e0" }}>is</span>
-    <span style={{ backgroundColor: "#f6e1e0" }}> </span>
-    <span style={{ backgroundColor: "#f6e1e0" }}>given</span>
-    <span style={{ backgroundColor: "#f6e1e0" }}> </span>
-    <span style={{ backgroundColor: "#f6e1e0" }}>below.</span>
-    <span style={{ backgroundColor: "#f6e1e0" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f0c0bd" }}>
+      Such models have the advantage that they can express the relative
+      certainty of many different possible answers rather than only one,
+      producing more reliable results when such a model is included as a
+      component of a larger system.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.6428571428571428">
-    <span style={{ backgroundColor: "#f4dad9" }}>Cognition</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>refers</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>to</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>"the</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>mental</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>action</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>or</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>process</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>of</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>acquiring</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>knowledge</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>and</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>understanding</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>through</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>thought,</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>experience,</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>and</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>the</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>senses."</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#ed8a84" }}>
+      Some of the earliest-used machine learning algorithms, such as decision
+      trees, produced systems of hard if-then rules similar to existing
+      hand-written rules.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.6071428571428571">
-    <span style={{ backgroundColor: "#f5dedd" }}>Cognitive</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>science</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>is</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>the</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>interdisciplinary,</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>scientific</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>study</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>of</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>the</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>mind</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>and</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>its</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>processes.</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f7e5e4" }}>
+      However, part-of-speech tagging introduced the use of hidden Markov models
+      to natural language processing, and increasingly, research has focused on
+      statistical models, which make soft, probabilistic decisions based on
+      attaching real-valued weights to the features making up the input data.{" "}
+    </span>
   </p>,
-  <p class="word-weight-1.5">
-    <span style={{ backgroundColor: "#f1c4c1" }}>Cognitive</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>linguistics</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>is</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>an</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>interdisciplinary</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>branch</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>of</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>linguistics,</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>combining</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>knowledge</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>and</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>research</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>from</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>both</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>psychology</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>and</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>linguistics.</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#ed8e89" }}>
+      The cache language models upon which many speech recognition systems now
+      rely are examples of such statistical models.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.0">
-    <span style={{ backgroundColor: "#f7e5e4" }}>George</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Lakoff</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>offers</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>methodology</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>build</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Natural</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>language</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>processing</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>(NLP)</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>algorithms</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>through</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>perspective</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Cognitive</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>science,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>along</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>with</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>findings</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Cognitive</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>linguistics:</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>The</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>first</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>defining</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>aspect</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>this</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>cognitive</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>task</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>NLP</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>application</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>theory</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Conceptual</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>metaphor,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>explained</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>by</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Lakoff</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>as</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>“the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>understanding</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>one</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>idea,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>in</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>terms</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>another”</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>which</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>provides</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>an</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>idea</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>intent</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>author.</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#eea8a4" }}>
+      Such models are generally more robust when given unfamiliar input,
+      especially input that contains errors (as is very common for real-world
+      data), and produce more reliable results when integrated into a larger
+      system comprising multiple subtasks.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.6071428571428571">
-    <span style={{ backgroundColor: "#f5dedd" }}>For</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>example,</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>consider</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>some</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>of</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>the</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>meanings,</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>in</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>English,</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>of</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>the</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>word</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>“big”.</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#eeaca8" }}>
+      Since the neural turn, statistical methods in NLP research have been
+      largely replaced by neural networks.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.0">
-    <span style={{ backgroundColor: "#f7e5e4" }}>When</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>used</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>as</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Comparative,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>as</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>in</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>“That</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>big</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>tree,”</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>likely</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>inference</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>intent</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>author</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>that</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>author</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>using</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>word</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>“big”</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>imply</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>statement</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>about</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>tree</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>being</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>”physically</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>large”</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>in</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>comparison</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>other</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>trees</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>or</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>authors</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>experience.</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f3d3d1" }}>
+      However, they continue to be relevant for contexts in which statistical
+      interpretability and transparency is required.{" "}
+    </span>
   </p>,
-  <p class="word-weight-1.6428571428571426">
-    <span style={{ backgroundColor: "#f0bcb9" }}>When</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>used</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>as</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>a</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>Stative</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>verb,</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>as</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>in</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>”Tomorrow</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>is</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>a</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>big</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>day”,</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>a</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>likely</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>inference</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>of</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>the</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>author’s</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>intent</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>it</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>that</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>”big”</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>is</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>being</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>used</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>to</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>imply</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>”importance”.</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f2cfcd" }}>
+      A major drawback of statistical methods is that they require elaborate
+      feature engineering.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.6071428571428571">
-    <span style={{ backgroundColor: "#f5dedd" }}>These</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>examples</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>are</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>not</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>presented</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>to</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>be</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>complete,</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>but</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>merely</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>as</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>indicators</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>of</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>the</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>implication</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>of</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>the</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>idea</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>of</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>Conceptual</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>metaphor.</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#eea49f" }}>
+      Since the early 2010s, the field has thus largely abandoned statistical
+      methods and shifted to neural networks for machine learning.{" "}
+    </span>
   </p>,
-  <p class="word-weight-1.642857142857143">
-    <span style={{ backgroundColor: "#efb4b1" }}>The</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>intent</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>behind</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>other</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>usages,</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>like</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>in</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>”She</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>is</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>a</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>big</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>person”</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>will</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>remain</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>somewhat</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>ambiguous</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>to</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>a</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>person</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>and</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>a</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>cognitive</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>NLP</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>algorithm</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>alike</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>without</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>additional</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>information.</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f7e5e4" }}>
+      Popular techniques include the use of word embeddings to capture semantic
+      properties of words, and an increase in end-to-end learning of a
+      higher-level task (e.g., question answering) instead of relying on a
+      pipeline of separate intermediate tasks (e.g., part-of-speech tagging and
+      dependency parsing).{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.0">
-    <span style={{ backgroundColor: "#f7e5e4" }}>This</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>leads</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>second</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>defining</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>aspect</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>this</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>cognitive</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>task</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>NLP,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>namely</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Probabilistic</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>context-free</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>grammar</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>(PCFG)</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>which</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>enables</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>cognitive</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>NLP</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>algorithms</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>assign</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>relative</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>measures</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>meaning</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>word,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>phrase,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>sentence</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>or</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>piece</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>text</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>based</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>on</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>information</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>presented</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>before</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>and</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>after</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>piece</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>text</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>being</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>analyzed.</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#ee746d" }}>
+      In some areas, this shift has entailed substantial changes in how NLP
+      systems are designed, such that deep neural network-based approaches may
+      be viewed as a new paradigm distinct from statistical natural language
+      processing.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.0">
-    <span style={{ backgroundColor: "#f7e5e4" }}>The</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>mathematical</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>equation</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>for</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>such</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>algorithms</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>presented</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>in</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>US</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>patent</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>9269353</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Where,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>RMM,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Relative</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Measure</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Meaning</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>token,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>any</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>block</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>text,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>sentence,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>phrase</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>or</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>word</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>N,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>number</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>tokens</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>being</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>analyzed</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>PMM,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Probable</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Measure</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Meaning</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>based</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>on</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>corpora</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>d,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>location</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>token</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>along</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>sequence</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>N-1</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>tokens</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>PF,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Probability</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Function</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>specific</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>language</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f7e5e4" }}>
+      For instance, the term neural machine translation (NMT) emphasizes the
+      fact that deep learning-based approaches to machine translation directly
+      learn sequence-to-sequence transformations, obviating the need for
+      intermediate steps such as word alignment and language modeling that was
+      used in statistical machine translation (SMT).{" "}
+    </span>
+  </p>,
+  <p>
+    <span style={{ backgroundColor: "#ed938d" }}>
+      The following is a list of some of the most commonly researched tasks in
+      natural language processing.{" "}
+    </span>
+  </p>,
+  <p>
+    <span style={{ backgroundColor: "#efb8b5" }}>
+      Some of these tasks have direct real-world applications, while others more
+      commonly serve as subtasks that are used to aid in solving larger tasks.{" "}
+    </span>
+  </p>,
+  <p>
+    <span style={{ backgroundColor: "#ed9792" }}>
+      Though natural language processing tasks are closely intertwined, they can
+      be subdivided into categories for convenience.{" "}
+    </span>
+  </p>,
+  <p>
+    <span style={{ backgroundColor: "#f6e1e0" }}>
+      A coarse division is given below.{" "}
+    </span>
+  </p>,
+  <p>
+    <span style={{ backgroundColor: "#f4dad9" }}>
+      Cognition refers to "the mental action or process of acquiring knowledge
+      and understanding through thought, experience, and the senses."{" "}
+    </span>
+  </p>,
+  <p>
+    <span style={{ backgroundColor: "#f5dedd" }}>
+      Cognitive science is the interdisciplinary, scientific study of the mind
+      and its processes.{" "}
+    </span>
+  </p>,
+  <p>
+    <span style={{ backgroundColor: "#f1c4c1" }}>
+      Cognitive linguistics is an interdisciplinary branch of linguistics,
+      combining knowledge and research from both psychology and linguistics.{" "}
+    </span>
+  </p>,
+  <p>
+    <span style={{ backgroundColor: "#f7e5e4" }}>
+      George Lakoff offers a methodology to build Natural language processing
+      (NLP) algorithms through the perspective of Cognitive science, along with
+      the findings of Cognitive linguistics: The first defining aspect of this
+      cognitive task of NLP is the application of the theory of Conceptual
+      metaphor, explained by Lakoff as “the understanding of one idea, in terms
+      of another” which provides an idea of the intent of the author.{" "}
+    </span>
+  </p>,
+  <p>
+    <span style={{ backgroundColor: "#f5dedd" }}>
+      For example, consider some of the meanings, in English, of the word “big”.{" "}
+    </span>
+  </p>,
+  <p>
+    <span style={{ backgroundColor: "#f7e5e4" }}>
+      When used as a Comparative, as in “That is a big tree,” a likely inference
+      of the intent of the author is that the author is using the word “big” to
+      imply a statement about the tree being ”physically large” in comparison to
+      other trees or the authors experience.{" "}
+    </span>
+  </p>,
+  <p>
+    <span style={{ backgroundColor: "#f0bcb9" }}>
+      When used as a Stative verb, as in ”Tomorrow is a big day”, a likely
+      inference of the author’s intent it that ”big” is being used to imply
+      ”importance”.{" "}
+    </span>
+  </p>,
+  <p>
+    <span style={{ backgroundColor: "#f5dedd" }}>
+      These examples are not presented to be complete, but merely as indicators
+      of the implication of the idea of Conceptual metaphor.{" "}
+    </span>
+  </p>,
+  <p>
+    <span style={{ backgroundColor: "#efb4b1" }}>
+      The intent behind other usages, like in ”She is a big person” will remain
+      somewhat ambiguous to a person and a cognitive NLP algorithm alike without
+      additional information.{" "}
+    </span>
+  </p>,
+  <p>
+    <span style={{ backgroundColor: "#f7e5e4" }}>
+      This leads to the second defining aspect of this cognitive task of NLP,
+      namely Probabilistic context-free grammar (PCFG) which enables cognitive
+      NLP algorithms to assign relative measures of meaning to a word, phrase,
+      sentence or piece of text based on the information presented before and
+      after the piece of text being analyzed.{" "}
+    </span>
+  </p>,
+  <p>
+    <span style={{ backgroundColor: "#f7e5e4" }}>
+      The mathematical equation for such algorithms is presented in US patent
+      9269353 Where, RMM, is the Relative Measure of Meaning token, is any block
+      of text, sentence, phrase or word N, is the number of tokens being
+      analyzed PMM, is the Probable Measure of Meaning based on a corpora d, is
+      the location of the token along the sequence of N-1 tokens PF, is the
+      Probability Function specific to a language{" "}
+    </span>
   </p>,
 ];
 
 export const wiki_sentence_sorted = [
-  <p class="word-weight-6.892857142857143">
-    <span style={{ backgroundColor: "#ef665e" }}>Natural</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>language</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>processing</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>(NLP)</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>is</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>a</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>subfield</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>of</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>linguistics,</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>computer</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>science,</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>and</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>artificial</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>intelligence</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>concerned</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>with</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>the</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>interactions</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>between</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>computers</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>and</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>human</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>language,</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>in</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>particular</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>how</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>to</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>program</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>computers</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>to</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>process</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>and</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>analyze</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>large</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>amounts</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>of</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>natural</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>language</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-    <span style={{ backgroundColor: "#ef665e" }}>data.</span>
-    <span style={{ backgroundColor: "#ef665e" }}> </span>
-  </p>,
-  <p class="word-weight-6.178571428571429">
-    <span style={{ backgroundColor: "#ee6b63" }}>Challenges</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>in</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>natural</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>language</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>processing</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>frequently</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>involve</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>speech</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>recognition,</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>natural</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>language</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>understanding,</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>and</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>natural-language</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-    <span style={{ backgroundColor: "#ee6b63" }}>generation.</span>
-    <span style={{ backgroundColor: "#ee6b63" }}> </span>
-  </p>,
-  <p class="word-weight-5.5">
-    <span style={{ backgroundColor: "#ee6f68" }}>Starting</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>in</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>the</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>late</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>1980s,</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>however,</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>there</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>was</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>a</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>revolution</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>in</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>natural</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>language</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>processing</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>with</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>the</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>introduction</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>of</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>machine</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>learning</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>algorithms</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>for</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>language</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-    <span style={{ backgroundColor: "#ee6f68" }}>processing.</span>
-    <span style={{ backgroundColor: "#ee6f68" }}> </span>
-  </p>,
-  <p class="word-weight-4.464285714285714">
-    <span style={{ backgroundColor: "#ee746d" }}>In</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>some</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>areas,</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>this</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>shift</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>has</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>entailed</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>substantial</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>changes</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>in</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>how</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>NLP</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>systems</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>are</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>designed,</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>such</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>that</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>deep</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>neural</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>network-based</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>approaches</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>may</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>be</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>viewed</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>as</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>a</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>new</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>paradigm</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>distinct</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>from</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>statistical</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>natural</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>language</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-    <span style={{ backgroundColor: "#ee746d" }}>processing.</span>
-    <span style={{ backgroundColor: "#ee746d" }}> </span>
-  </p>,
-  <p class="word-weight-4.142857142857142">
-    <span style={{ backgroundColor: "#ee7872" }}>Many</span>
-    <span style={{ backgroundColor: "#ee7872" }}> </span>
-    <span style={{ backgroundColor: "#ee7872" }}>different</span>
-    <span style={{ backgroundColor: "#ee7872" }}> </span>
-    <span style={{ backgroundColor: "#ee7872" }}>classes</span>
-    <span style={{ backgroundColor: "#ee7872" }}> </span>
-    <span style={{ backgroundColor: "#ee7872" }}>of</span>
-    <span style={{ backgroundColor: "#ee7872" }}> </span>
-    <span style={{ backgroundColor: "#ee7872" }}>machine-learning</span>
-    <span style={{ backgroundColor: "#ee7872" }}> </span>
-    <span style={{ backgroundColor: "#ee7872" }}>algorithms</span>
-    <span style={{ backgroundColor: "#ee7872" }}> </span>
-    <span style={{ backgroundColor: "#ee7872" }}>have</span>
-    <span style={{ backgroundColor: "#ee7872" }}> </span>
-    <span style={{ backgroundColor: "#ee7872" }}>been</span>
-    <span style={{ backgroundColor: "#ee7872" }}> </span>
-    <span style={{ backgroundColor: "#ee7872" }}>applied</span>
-    <span style={{ backgroundColor: "#ee7872" }}> </span>
-    <span style={{ backgroundColor: "#ee7872" }}>to</span>
-    <span style={{ backgroundColor: "#ee7872" }}> </span>
-    <span style={{ backgroundColor: "#ee7872" }}>
-      natural-language-processing
+  <p>
+    <span style={{ backgroundColor: "#ef665e" }}>
+      Natural language processing (NLP) is a subfield of linguistics, computer
+      science, and artificial intelligence concerned with the interactions
+      between computers and human language, in particular how to program
+      computers to process and analyze large amounts of natural language data.{" "}
     </span>
-    <span style={{ backgroundColor: "#ee7872" }}> </span>
-    <span style={{ backgroundColor: "#ee7872" }}>tasks.</span>
-    <span style={{ backgroundColor: "#ee7872" }}> </span>
   </p>,
-  <p class="word-weight-3.928571428571428">
-    <span style={{ backgroundColor: "#ed7d76" }}>In</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>the</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>early</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>days,</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>many</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>language-processing</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>systems</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>were</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>designed</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>by</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>symbolic</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>methods,</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>i.e.,</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>the</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>hand-coding</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>of</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>a</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>set</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>of</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>rules,</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>coupled</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>with</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>a</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>dictionary</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>lookup:</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>such</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>as</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>by</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>writing</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>grammars</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>or</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>devising</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>heuristic</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>rules</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>for</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
-    <span style={{ backgroundColor: "#ed7d76" }}>stemming.</span>
-    <span style={{ backgroundColor: "#ed7d76" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#ee6b63" }}>
+      Challenges in natural language processing frequently involve speech
+      recognition, natural language understanding, and natural-language
+      generation.{" "}
+    </span>
   </p>,
-  <p class="word-weight-3.464285714285714">
-    <span style={{ backgroundColor: "#ed817b" }}>Up</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>to</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>the</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>1980s,</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>most</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>natural</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>language</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>processing</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>systems</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>were</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>based</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>on</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>complex</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>sets</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>of</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>hand-written</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
-    <span style={{ backgroundColor: "#ed817b" }}>rules.</span>
-    <span style={{ backgroundColor: "#ed817b" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#ee6f68" }}>
+      Starting in the late 1980s, however, there was a revolution in natural
+      language processing with the introduction of machine learning algorithms
+      for language processing.{" "}
+    </span>
   </p>,
-  <p class="word-weight-3.178571428571429">
-    <span style={{ backgroundColor: "#ed8680" }}>transformational</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>grammar),</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>whose</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>theoretical</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>underpinnings</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>discouraged</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>the</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>sort</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>of</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>corpus</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>linguistics</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>that</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>underlies</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>the</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>machine-learning</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>approach</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>to</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>language</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
-    <span style={{ backgroundColor: "#ed8680" }}>processing.</span>
-    <span style={{ backgroundColor: "#ed8680" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#ee746d" }}>
+      In some areas, this shift has entailed substantial changes in how NLP
+      systems are designed, such that deep neural network-based approaches may
+      be viewed as a new paradigm distinct from statistical natural language
+      processing.{" "}
+    </span>
   </p>,
-  <p class="word-weight-2.857142857142857">
-    <span style={{ backgroundColor: "#ed8a84" }}>Some</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>of</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>the</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>earliest-used</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>machine</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>learning</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>algorithms,</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>such</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>as</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>decision</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>trees,</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>produced</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>systems</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>of</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>hard</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>if-then</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>rules</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>similar</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>to</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>existing</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>hand-written</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
-    <span style={{ backgroundColor: "#ed8a84" }}>rules.</span>
-    <span style={{ backgroundColor: "#ed8a84" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#ee7872" }}>
+      Many different classes of machine-learning algorithms have been applied to
+      natural-language-processing tasks.{" "}
+    </span>
   </p>,
-  <p class="word-weight-2.7857142857142856">
-    <span style={{ backgroundColor: "#ed8e89" }}>The</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>cache</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>language</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>models</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>upon</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>which</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>many</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>speech</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>recognition</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>systems</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>now</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>rely</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>are</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>examples</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>of</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>such</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>statistical</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
-    <span style={{ backgroundColor: "#ed8e89" }}>models.</span>
-    <span style={{ backgroundColor: "#ed8e89" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#ed7d76" }}>
+      In the early days, many language-processing systems were designed by
+      symbolic methods, i.e., the hand-coding of a set of rules, coupled with a
+      dictionary lookup: such as by writing grammars or devising heuristic rules
+      for stemming.{" "}
+    </span>
   </p>,
-  <p class="word-weight-2.75">
-    <span style={{ backgroundColor: "#ed938d" }}>The</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>following</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>is</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>a</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>list</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>of</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>some</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>of</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>the</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>most</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>commonly</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>researched</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>tasks</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>in</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>natural</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>language</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
-    <span style={{ backgroundColor: "#ed938d" }}>processing.</span>
-    <span style={{ backgroundColor: "#ed938d" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#ed817b" }}>
+      Up to the 1980s, most natural language processing systems were based on
+      complex sets of hand-written rules.{" "}
+    </span>
   </p>,
-  <p class="word-weight-2.749999999999999">
-    <span style={{ backgroundColor: "#ed9792" }}>Though</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>natural</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>language</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>processing</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>tasks</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>are</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>closely</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>intertwined,</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>they</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>can</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>be</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>subdivided</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>into</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>categories</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>for</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
-    <span style={{ backgroundColor: "#ed9792" }}>convenience.</span>
-    <span style={{ backgroundColor: "#ed9792" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#ed8680" }}>
+      transformational grammar), whose theoretical underpinnings discouraged the
+      sort of corpus linguistics that underlies the machine-learning approach to
+      language processing.{" "}
+    </span>
   </p>,
-  <p class="word-weight-2.4285714285714293">
-    <span style={{ backgroundColor: "#ed9b97" }}>Increasingly,</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>however,</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>research</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>has</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>focused</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>on</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>statistical</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>models,</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>which</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>make</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>soft,</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>probabilistic</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>decisions</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>based</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>on</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>attaching</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>real-valued</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>weights</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>to</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>each</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>input</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
-    <span style={{ backgroundColor: "#ed9b97" }}>feature.</span>
-    <span style={{ backgroundColor: "#ed9b97" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#ed8a84" }}>
+      Some of the earliest-used machine learning algorithms, such as decision
+      trees, produced systems of hard if-then rules similar to existing
+      hand-written rules.{" "}
+    </span>
   </p>,
-  <p class="word-weight-2.321428571428571">
-    <span style={{ backgroundColor: "#ed9f9b" }}>Natural</span>
-    <span style={{ backgroundColor: "#ed9f9b" }}> </span>
-    <span style={{ backgroundColor: "#ed9f9b" }}>language</span>
-    <span style={{ backgroundColor: "#ed9f9b" }}> </span>
-    <span style={{ backgroundColor: "#ed9f9b" }}>processing</span>
-    <span style={{ backgroundColor: "#ed9f9b" }}> </span>
-    <span style={{ backgroundColor: "#ed9f9b" }}>has</span>
-    <span style={{ backgroundColor: "#ed9f9b" }}> </span>
-    <span style={{ backgroundColor: "#ed9f9b" }}>its</span>
-    <span style={{ backgroundColor: "#ed9f9b" }}> </span>
-    <span style={{ backgroundColor: "#ed9f9b" }}>roots</span>
-    <span style={{ backgroundColor: "#ed9f9b" }}> </span>
-    <span style={{ backgroundColor: "#ed9f9b" }}>in</span>
-    <span style={{ backgroundColor: "#ed9f9b" }}> </span>
-    <span style={{ backgroundColor: "#ed9f9b" }}>the</span>
-    <span style={{ backgroundColor: "#ed9f9b" }}> </span>
-    <span style={{ backgroundColor: "#ed9f9b" }}>1950s.</span>
-    <span style={{ backgroundColor: "#ed9f9b" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#ed8e89" }}>
+      The cache language models upon which many speech recognition systems now
+      rely are examples of such statistical models.{" "}
+    </span>
   </p>,
-  <p class="word-weight-2.2857142857142856">
-    <span style={{ backgroundColor: "#eea49f" }}>Since</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>the</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>early</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>2010s,</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>the</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>field</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>has</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>thus</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>largely</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>abandoned</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>statistical</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>methods</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>and</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>shifted</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>to</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>neural</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>networks</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>for</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>machine</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
-    <span style={{ backgroundColor: "#eea49f" }}>learning.</span>
-    <span style={{ backgroundColor: "#eea49f" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#ed938d" }}>
+      The following is a list of some of the most commonly researched tasks in
+      natural language processing.{" "}
+    </span>
   </p>,
-  <p class="word-weight-2.107142857142857">
-    <span style={{ backgroundColor: "#eea8a4" }}>Such</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>models</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>are</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>generally</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>more</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>robust</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>when</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>given</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>unfamiliar</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>input,</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>especially</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>input</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>that</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>contains</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>errors</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>(as</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>is</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>very</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>common</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>for</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>real-world</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>data),</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>and</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>produce</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>more</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>reliable</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>results</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>when</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>integrated</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>into</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>a</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>larger</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>system</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>comprising</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>multiple</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
-    <span style={{ backgroundColor: "#eea8a4" }}>subtasks.</span>
-    <span style={{ backgroundColor: "#eea8a4" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#ed9792" }}>
+      Though natural language processing tasks are closely intertwined, they can
+      be subdivided into categories for convenience.{" "}
+    </span>
   </p>,
-  <p class="word-weight-1.9642857142857142">
-    <span style={{ backgroundColor: "#eeaca8" }}>Since</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>the</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>neural</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>turn,</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>statistical</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>methods</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>in</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>NLP</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>research</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>have</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>been</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>largely</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>replaced</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>by</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>neural</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
-    <span style={{ backgroundColor: "#eeaca8" }}>networks.</span>
-    <span style={{ backgroundColor: "#eeaca8" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#ed9b97" }}>
+      Increasingly, however, research has focused on statistical models, which
+      make soft, probabilistic decisions based on attaching real-valued weights
+      to each input feature.{" "}
+    </span>
   </p>,
-  <p class="word-weight-1.7142857142857142">
-    <span style={{ backgroundColor: "#eeb0ac" }}>The</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>result</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>is</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>a</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>computer</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>capable</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>of</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>‘understanding’</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>the</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>contents</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>of</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>documents,</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>including</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>the</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>contextual</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>nuances</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>of</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>the</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>language</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>within</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
-    <span style={{ backgroundColor: "#eeb0ac" }}>them.</span>
-    <span style={{ backgroundColor: "#eeb0ac" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#ed9f9b" }}>
+      Natural language processing has its roots in the 1950s.{" "}
+    </span>
   </p>,
-  <p class="word-weight-1.642857142857143">
-    <span style={{ backgroundColor: "#efb4b1" }}>The</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>intent</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>behind</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>other</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>usages,</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>like</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>in</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>”She</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>is</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>a</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>big</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>person”</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>will</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>remain</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>somewhat</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>ambiguous</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>to</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>a</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>person</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>and</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>a</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>cognitive</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>NLP</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>algorithm</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>alike</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>without</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>additional</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
-    <span style={{ backgroundColor: "#efb4b1" }}>information.</span>
-    <span style={{ backgroundColor: "#efb4b1" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#eea49f" }}>
+      Since the early 2010s, the field has thus largely abandoned statistical
+      methods and shifted to neural networks for machine learning.{" "}
+    </span>
   </p>,
-  <p class="word-weight-1.6428571428571428">
-    <span style={{ backgroundColor: "#efb8b5" }}>Some</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>of</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>these</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>tasks</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>have</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>direct</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>real-world</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>applications,</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>while</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>others</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>more</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>commonly</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>serve</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>as</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>subtasks</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>that</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>are</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>used</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>to</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>aid</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>in</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>solving</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>larger</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
-    <span style={{ backgroundColor: "#efb8b5" }}>tasks.</span>
-    <span style={{ backgroundColor: "#efb8b5" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#eea8a4" }}>
+      Such models are generally more robust when given unfamiliar input,
+      especially input that contains errors (as is very common for real-world
+      data), and produce more reliable results when integrated into a larger
+      system comprising multiple subtasks.{" "}
+    </span>
   </p>,
-  <p class="word-weight-1.6428571428571426">
-    <span style={{ backgroundColor: "#f0bcb9" }}>When</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>used</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>as</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>a</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>Stative</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>verb,</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>as</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>in</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>”Tomorrow</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>is</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>a</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>big</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>day”,</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>a</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>likely</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>inference</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>of</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>the</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>author’s</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>intent</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>it</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>that</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>”big”</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>is</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>being</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>used</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>to</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>imply</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
-    <span style={{ backgroundColor: "#f0bcb9" }}>”importance”.</span>
-    <span style={{ backgroundColor: "#f0bcb9" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#eeaca8" }}>
+      Since the neural turn, statistical methods in NLP research have been
+      largely replaced by neural networks.{" "}
+    </span>
   </p>,
-  <p class="word-weight-1.5357142857142858">
-    <span style={{ backgroundColor: "#f0c0bd" }}>Such</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>models</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>have</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>the</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>advantage</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>that</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>they</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>can</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>express</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>the</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>relative</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>certainty</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>of</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>many</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>different</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>possible</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>answers</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>rather</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>than</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>only</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>one,</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>producing</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>more</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>reliable</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>results</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>when</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>such</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>a</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>model</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>is</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>included</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>as</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>a</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>component</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>of</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>a</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>larger</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
-    <span style={{ backgroundColor: "#f0c0bd" }}>system.</span>
-    <span style={{ backgroundColor: "#f0c0bd" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#eeb0ac" }}>
+      The result is a computer capable of ‘understanding’ the contents of
+      documents, including the contextual nuances of the language within them.{" "}
+    </span>
   </p>,
-  <p class="word-weight-1.5">
-    <span style={{ backgroundColor: "#f1c4c1" }}>Cognitive</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>linguistics</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>is</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>an</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>interdisciplinary</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>branch</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>of</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>linguistics,</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>combining</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>knowledge</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>and</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>research</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>from</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>both</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>psychology</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>and</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
-    <span style={{ backgroundColor: "#f1c4c1" }}>linguistics.</span>
-    <span style={{ backgroundColor: "#f1c4c1" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#efb4b1" }}>
+      The intent behind other usages, like in ”She is a big person” will remain
+      somewhat ambiguous to a person and a cognitive NLP algorithm alike without
+      additional information.{" "}
+    </span>
   </p>,
-  <p class="word-weight-1.2857142857142856">
-    <span style={{ backgroundColor: "#f1c8c5" }}>These</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>algorithms</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>take</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>as</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>input</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>a</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>large</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>set</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>of</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>"features"</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>that</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>are</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>generated</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>from</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>the</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>input</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
-    <span style={{ backgroundColor: "#f1c8c5" }}>data.</span>
-    <span style={{ backgroundColor: "#f1c8c5" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#efb8b5" }}>
+      Some of these tasks have direct real-world applications, while others more
+      commonly serve as subtasks that are used to aid in solving larger tasks.{" "}
+    </span>
   </p>,
-  <p class="word-weight-1.107142857142857">
-    <span style={{ backgroundColor: "#f2cbc9" }}>This</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>was</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>due</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>to</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>both</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>the</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>steady</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>increase</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>in</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>computational</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>power</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>(see</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>Moore's</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>law)</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>and</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>the</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>gradual</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>lessening</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>of</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>the</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>dominance</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>of</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>Chomskyan</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>theories</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>of</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>linguistics</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
-    <span style={{ backgroundColor: "#f2cbc9" }}>(e.g.</span>
-    <span style={{ backgroundColor: "#f2cbc9" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f0bcb9" }}>
+      When used as a Stative verb, as in ”Tomorrow is a big day”, a likely
+      inference of the author’s intent it that ”big” is being used to imply
+      ”importance”.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.8571428571428571">
-    <span style={{ backgroundColor: "#f2cfcd" }}>A</span>
-    <span style={{ backgroundColor: "#f2cfcd" }}> </span>
-    <span style={{ backgroundColor: "#f2cfcd" }}>major</span>
-    <span style={{ backgroundColor: "#f2cfcd" }}> </span>
-    <span style={{ backgroundColor: "#f2cfcd" }}>drawback</span>
-    <span style={{ backgroundColor: "#f2cfcd" }}> </span>
-    <span style={{ backgroundColor: "#f2cfcd" }}>of</span>
-    <span style={{ backgroundColor: "#f2cfcd" }}> </span>
-    <span style={{ backgroundColor: "#f2cfcd" }}>statistical</span>
-    <span style={{ backgroundColor: "#f2cfcd" }}> </span>
-    <span style={{ backgroundColor: "#f2cfcd" }}>methods</span>
-    <span style={{ backgroundColor: "#f2cfcd" }}> </span>
-    <span style={{ backgroundColor: "#f2cfcd" }}>is</span>
-    <span style={{ backgroundColor: "#f2cfcd" }}> </span>
-    <span style={{ backgroundColor: "#f2cfcd" }}>that</span>
-    <span style={{ backgroundColor: "#f2cfcd" }}> </span>
-    <span style={{ backgroundColor: "#f2cfcd" }}>they</span>
-    <span style={{ backgroundColor: "#f2cfcd" }}> </span>
-    <span style={{ backgroundColor: "#f2cfcd" }}>require</span>
-    <span style={{ backgroundColor: "#f2cfcd" }}> </span>
-    <span style={{ backgroundColor: "#f2cfcd" }}>elaborate</span>
-    <span style={{ backgroundColor: "#f2cfcd" }}> </span>
-    <span style={{ backgroundColor: "#f2cfcd" }}>feature</span>
-    <span style={{ backgroundColor: "#f2cfcd" }}> </span>
-    <span style={{ backgroundColor: "#f2cfcd" }}>engineering.</span>
-    <span style={{ backgroundColor: "#f2cfcd" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f0c0bd" }}>
+      Such models have the advantage that they can express the relative
+      certainty of many different possible answers rather than only one,
+      producing more reliable results when such a model is included as a
+      component of a larger system.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.7499999999999999">
-    <span style={{ backgroundColor: "#f3d3d1" }}>However,</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>they</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>continue</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>to</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>be</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>relevant</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>for</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>contexts</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>in</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>which</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>statistical</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>interpretability</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>and</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>transparency</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>is</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
-    <span style={{ backgroundColor: "#f3d3d1" }}>required.</span>
-    <span style={{ backgroundColor: "#f3d3d1" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f1c4c1" }}>
+      Cognitive linguistics is an interdisciplinary branch of linguistics,
+      combining knowledge and research from both psychology and linguistics.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.7142857142857142">
-    <span style={{ backgroundColor: "#f4d7d5" }}>The</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>technology</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>can</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>then</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>accurately</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>extract</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>information</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>and</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>insights</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>contained</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>in</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>the</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>documents</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>as</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>well</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>as</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>categorize</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>and</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>organize</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>the</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>documents</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
-    <span style={{ backgroundColor: "#f4d7d5" }}>themselves.</span>
-    <span style={{ backgroundColor: "#f4d7d5" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f1c8c5" }}>
+      These algorithms take as input a large set of "features" that are
+      generated from the input data.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.6428571428571428">
-    <span style={{ backgroundColor: "#f4dad9" }}>Cognition</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>refers</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>to</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>"the</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>mental</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>action</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>or</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>process</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>of</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>acquiring</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>knowledge</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>and</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>understanding</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>through</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>thought,</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>experience,</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>and</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>the</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
-    <span style={{ backgroundColor: "#f4dad9" }}>senses."</span>
-    <span style={{ backgroundColor: "#f4dad9" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f2cbc9" }}>
+      This was due to both the steady increase in computational power (see
+      Moore's law) and the gradual lessening of the dominance of Chomskyan
+      theories of linguistics (e.g.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.6071428571428571">
-    <span style={{ backgroundColor: "#f5dedd" }}>Cognitive</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>science</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>is</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>the</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>interdisciplinary,</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>scientific</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>study</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>of</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>the</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>mind</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>and</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>its</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>processes.</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f2cfcd" }}>
+      A major drawback of statistical methods is that they require elaborate
+      feature engineering.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.6071428571428571">
-    <span style={{ backgroundColor: "#f5dedd" }}>These</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>examples</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>are</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>not</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>presented</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>to</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>be</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>complete,</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>but</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>merely</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>as</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>indicators</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>of</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>the</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>implication</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>of</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>the</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>idea</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>of</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>Conceptual</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>metaphor.</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f3d3d1" }}>
+      However, they continue to be relevant for contexts in which statistical
+      interpretability and transparency is required.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.6071428571428571">
-    <span style={{ backgroundColor: "#f5dedd" }}>For</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>example,</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>consider</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>some</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>of</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>the</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>meanings,</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>in</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>English,</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>of</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>the</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>word</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
-    <span style={{ backgroundColor: "#f5dedd" }}>“big”.</span>
-    <span style={{ backgroundColor: "#f5dedd" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f4d7d5" }}>
+      The technology can then accurately extract information and insights
+      contained in the documents as well as categorize and organize the
+      documents themselves.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.17857142857142855">
-    <span style={{ backgroundColor: "#f6e1e0" }}>A</span>
-    <span style={{ backgroundColor: "#f6e1e0" }}> </span>
-    <span style={{ backgroundColor: "#f6e1e0" }}>coarse</span>
-    <span style={{ backgroundColor: "#f6e1e0" }}> </span>
-    <span style={{ backgroundColor: "#f6e1e0" }}>division</span>
-    <span style={{ backgroundColor: "#f6e1e0" }}> </span>
-    <span style={{ backgroundColor: "#f6e1e0" }}>is</span>
-    <span style={{ backgroundColor: "#f6e1e0" }}> </span>
-    <span style={{ backgroundColor: "#f6e1e0" }}>given</span>
-    <span style={{ backgroundColor: "#f6e1e0" }}> </span>
-    <span style={{ backgroundColor: "#f6e1e0" }}>below.</span>
-    <span style={{ backgroundColor: "#f6e1e0" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f4dad9" }}>
+      Cognition refers to "the mental action or process of acquiring knowledge
+      and understanding through thought, experience, and the senses."{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.0">
-    <span style={{ backgroundColor: "#f7e5e4" }}>Already</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>in</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>1950,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Alan</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Turing</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>published</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>an</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>article</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>titled</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>"Computing</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Machinery</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>and</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Intelligence"</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>which</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>proposed</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>what</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>now</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>called</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Turing</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>test</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>as</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>criterion</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>intelligence,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>task</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>that</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>involves</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>automated</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>interpretation</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>and</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>generation</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>natural</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>language,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>but</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>at</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>time</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>not</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>articulated</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>as</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>problem</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>separate</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>from</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>artificial</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>intelligence.</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f5dedd" }}>
+      Cognitive science is the interdisciplinary, scientific study of the mind
+      and its processes.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.0">
-    <span style={{ backgroundColor: "#f7e5e4" }}>The</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>premise</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>symbolic</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>NLP</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>well-summarized</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>by</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>John</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Searle's</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Chinese</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>room</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>experiment:</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Given</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>collection</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>rules</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>(e.g.,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Chinese</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>phrasebook,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>with</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>questions</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>and</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>matching</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>answers),</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>computer</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>emulates</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>natural</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>language</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>understanding</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>(or</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>other</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>NLP</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>tasks)</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>by</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>applying</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>those</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>rules</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>data</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>it</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>confronted</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>with.</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f5dedd" }}>
+      These examples are not presented to be complete, but merely as indicators
+      of the implication of the idea of Conceptual metaphor.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.0">
-    <span style={{ backgroundColor: "#f7e5e4" }}>For</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>instance,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>term</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>neural</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>machine</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>translation</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>(NMT)</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>emphasizes</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>fact</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>that</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>deep</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>learning-based</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>approaches</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>machine</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>translation</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>directly</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>learn</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>sequence-to-sequence</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>transformations,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>obviating</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>need</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>for</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>intermediate</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>steps</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>such</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>as</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>word</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>alignment</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>and</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>language</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>modeling</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>that</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>was</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>used</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>in</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>statistical</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>machine</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>translation</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>(SMT).</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f5dedd" }}>
+      For example, consider some of the meanings, in English, of the word “big”.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.0">
-    <span style={{ backgroundColor: "#f7e5e4" }}>The</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>machine-learning</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>paradigm</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>calls</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>instead</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>for</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>using</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>statistical</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>inference</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>automatically</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>learn</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>such</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>rules</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>through</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>analysis</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>large</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>corpora</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>(the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>plural</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>form</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>corpus,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>set</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>documents,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>possibly</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>with</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>human</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>or</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>computer</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>annotations)</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>typical</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>real-world</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>examples.</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f6e1e0" }}>
+      A coarse division is given below.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.0">
-    <span style={{ backgroundColor: "#f7e5e4" }}>When</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>used</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>as</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Comparative,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>as</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>in</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>“That</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>big</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>tree,”</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>likely</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>inference</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>intent</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>author</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>that</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>author</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>using</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>word</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>“big”</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>imply</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>statement</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>about</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>tree</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>being</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>”physically</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>large”</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>in</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>comparison</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>other</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>trees</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>or</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>authors</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>experience.</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f7e5e4" }}>
+      Already in 1950, Alan Turing published an article titled "Computing
+      Machinery and Intelligence" which proposed what is now called the Turing
+      test as a criterion of intelligence, a task that involves the automated
+      interpretation and generation of natural language, but at the time not
+      articulated as a problem separate from artificial intelligence.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.0">
-    <span style={{ backgroundColor: "#f7e5e4" }}>In</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>2010s,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>representation</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>learning</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>and</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>deep</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>neural</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>network-style</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>machine</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>learning</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>methods</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>became</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>widespread</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>in</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>natural</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>language</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>processing,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>due</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>in</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>part</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>flurry</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>results</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>showing</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>that</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>such</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>techniques</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>can</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>achieve</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>state-of-the-art</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>results</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>in</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>many</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>natural</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>language</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>tasks,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>for</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>example</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>in</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>language</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>modeling,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>parsing,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>and</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>many</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>others.</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f7e5e4" }}>
+      The premise of symbolic NLP is well-summarized by John Searle's Chinese
+      room experiment: Given a collection of rules (e.g., a Chinese phrasebook,
+      with questions and matching answers), the computer emulates natural
+      language understanding (or other NLP tasks) by applying those rules to the
+      data it is confronted with.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.0">
-    <span style={{ backgroundColor: "#f7e5e4" }}>George</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Lakoff</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>offers</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>methodology</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>build</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Natural</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>language</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>processing</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>(NLP)</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>algorithms</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>through</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>perspective</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Cognitive</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>science,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>along</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>with</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>findings</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Cognitive</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>linguistics:</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>The</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>first</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>defining</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>aspect</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>this</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>cognitive</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>task</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>NLP</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>application</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>theory</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Conceptual</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>metaphor,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>explained</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>by</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Lakoff</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>as</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>“the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>understanding</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>one</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>idea,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>in</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>terms</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>another”</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>which</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>provides</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>an</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>idea</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>intent</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>author.</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f7e5e4" }}>
+      For instance, the term neural machine translation (NMT) emphasizes the
+      fact that deep learning-based approaches to machine translation directly
+      learn sequence-to-sequence transformations, obviating the need for
+      intermediate steps such as word alignment and language modeling that was
+      used in statistical machine translation (SMT).{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.0">
-    <span style={{ backgroundColor: "#f7e5e4" }}>More</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>recent</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>systems</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>based</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>on</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>machine-learning</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>algorithms</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>have</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>many</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>advantages</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>over</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>hand-produced</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>rules:</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Despite</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>popularity</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>machine</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>learning</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>in</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>NLP</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>research,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>symbolic</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>methods</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>are</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>still</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>(2020)</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>commonly</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>used</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Since</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>so-called</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>"statistical</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>revolution"</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>in</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>late</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>1980s</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>and</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>mid-1990s,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>much</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>natural</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>language</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>processing</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>research</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>has</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>relied</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>heavily</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>on</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>machine</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>learning.</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f7e5e4" }}>
+      The machine-learning paradigm calls instead for using statistical
+      inference to automatically learn such rules through the analysis of large
+      corpora (the plural form of corpus, is a set of documents, possibly with
+      human or computer annotations) of typical real-world examples.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.0">
-    <span style={{ backgroundColor: "#f7e5e4" }}>Popular</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>techniques</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>include</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>use</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>word</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>embeddings</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>capture</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>semantic</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>properties</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>words,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>and</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>an</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>increase</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>in</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>end-to-end</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>learning</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>higher-level</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>task</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>(e.g.,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>question</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>answering)</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>instead</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>relying</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>on</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>pipeline</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>separate</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>intermediate</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>tasks</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>(e.g.,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>part-of-speech</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>tagging</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>and</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>dependency</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>parsing).</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f7e5e4" }}>
+      When used as a Comparative, as in “That is a big tree,” a likely inference
+      of the intent of the author is that the author is using the word “big” to
+      imply a statement about the tree being ”physically large” in comparison to
+      other trees or the authors experience.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.0">
-    <span style={{ backgroundColor: "#f7e5e4" }}>However,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>part-of-speech</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>tagging</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>introduced</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>use</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>hidden</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Markov</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>models</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>natural</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>language</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>processing,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>and</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>increasingly,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>research</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>has</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>focused</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>on</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>statistical</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>models,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>which</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>make</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>soft,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>probabilistic</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>decisions</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>based</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>on</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>attaching</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>real-valued</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>weights</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>features</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>making</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>up</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>input</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>data.</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f7e5e4" }}>
+      In the 2010s, representation learning and deep neural network-style
+      machine learning methods became widespread in natural language processing,
+      due in part to a flurry of results showing that such techniques can
+      achieve state-of-the-art results in many natural language tasks, for
+      example in language modeling, parsing, and many others.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.0">
-    <span style={{ backgroundColor: "#f7e5e4" }}>This</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>leads</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>second</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>defining</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>aspect</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>this</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>cognitive</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>task</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>NLP,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>namely</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Probabilistic</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>context-free</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>grammar</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>(PCFG)</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>which</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>enables</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>cognitive</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>NLP</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>algorithms</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>assign</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>relative</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>measures</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>meaning</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>word,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>phrase,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>sentence</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>or</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>piece</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>text</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>based</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>on</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>information</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>presented</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>before</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>and</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>after</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>piece</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>text</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>being</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>analyzed.</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f7e5e4" }}>
+      George Lakoff offers a methodology to build Natural language processing
+      (NLP) algorithms through the perspective of Cognitive science, along with
+      the findings of Cognitive linguistics: The first defining aspect of this
+      cognitive task of NLP is the application of the theory of Conceptual
+      metaphor, explained by Lakoff as “the understanding of one idea, in terms
+      of another” which provides an idea of the intent of the author.{" "}
+    </span>
   </p>,
-  <p class="word-weight-0.0">
-    <span style={{ backgroundColor: "#f7e5e4" }}>The</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>mathematical</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>equation</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>for</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>such</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>algorithms</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>presented</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>in</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>US</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>patent</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>9269353</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Where,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>RMM,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Relative</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Measure</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Meaning</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>token,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>any</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>block</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>text,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>sentence,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>phrase</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>or</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>word</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>N,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>number</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>tokens</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>being</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>analyzed</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>PMM,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Probable</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Measure</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Meaning</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>based</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>on</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>corpora</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>d,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>location</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>token</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>along</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>sequence</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>of</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>N-1</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>tokens</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>PF,</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>is</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>the</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Probability</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>Function</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>specific</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>to</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>a</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
-    <span style={{ backgroundColor: "#f7e5e4" }}>language</span>
-    <span style={{ backgroundColor: "#f7e5e4" }}> </span>
+  <p>
+    <span style={{ backgroundColor: "#f7e5e4" }}>
+      More recent systems based on machine-learning algorithms have many
+      advantages over hand-produced rules: Despite the popularity of machine
+      learning in NLP research, symbolic methods are still (2020) commonly used
+      Since the so-called "statistical revolution" in the late 1980s and
+      mid-1990s, much natural language processing research has relied heavily on
+      machine learning.{" "}
+    </span>
+  </p>,
+  <p>
+    <span style={{ backgroundColor: "#f7e5e4" }}>
+      Popular techniques include the use of word embeddings to capture semantic
+      properties of words, and an increase in end-to-end learning of a
+      higher-level task (e.g., question answering) instead of relying on a
+      pipeline of separate intermediate tasks (e.g., part-of-speech tagging and
+      dependency parsing).{" "}
+    </span>
+  </p>,
+  <p>
+    <span style={{ backgroundColor: "#f7e5e4" }}>
+      However, part-of-speech tagging introduced the use of hidden Markov models
+      to natural language processing, and increasingly, research has focused on
+      statistical models, which make soft, probabilistic decisions based on
+      attaching real-valued weights to the features making up the input data.{" "}
+    </span>
+  </p>,
+  <p>
+    <span style={{ backgroundColor: "#f7e5e4" }}>
+      This leads to the second defining aspect of this cognitive task of NLP,
+      namely Probabilistic context-free grammar (PCFG) which enables cognitive
+      NLP algorithms to assign relative measures of meaning to a word, phrase,
+      sentence or piece of text based on the information presented before and
+      after the piece of text being analyzed.{" "}
+    </span>
+  </p>,
+  <p>
+    <span style={{ backgroundColor: "#f7e5e4" }}>
+      The mathematical equation for such algorithms is presented in US patent
+      9269353 Where, RMM, is the Relative Measure of Meaning token, is any block
+      of text, sentence, phrase or word N, is the number of tokens being
+      analyzed PMM, is the Probable Measure of Meaning based on a corpora d, is
+      the location of the token along the sequence of N-1 tokens PF, is the
+      Probability Function specific to a language{" "}
+    </span>
+  </p>,
+];
+
+export const summary = [
+  <p>
+    <span>
+      Natural language processing (NLP) is a subfield of linguistics, computer
+      science, and artificial intelligence concerned with the interactions
+      between computers and human language, in particular how to program
+      computers to process and analyze large amounts of natural language data.
+      Challenges in natural language processing frequently involve speech
+      recognition, natural language understanding, and natural-language
+      generation. Starting in the late 1980s, however, there was a revolution in
+      natural language processing with the introduction of machine learning
+      algorithms for language processing. In some areas, this shift has entailed
+      substantial changes in how NLP systems are designed, such that deep neural
+      network-based approaches may be viewed as a new paradigm distinct from
+      statistical natural language processing. Many different classes of
+      machine-learning algorithms have been applied to
+      natural-language-processing tasks. In the early days, many
+      language-processing systems were designed by symbolic methods, i.e., the
+      hand-coding of a set of rules, coupled with a dictionary lookup: such as
+      by writing grammars or devising heuristic rules for stemming.
+    </span>
   </p>,
 ];

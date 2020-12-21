@@ -13,6 +13,7 @@
 .btn-arrow-right:active {
   outline: none !important;
   box-shadow: none !important;
+  outline-color: transparent !important;
 }
 .btn-arrow-right[disabled],
 .btn-arrow-left[disabled] {

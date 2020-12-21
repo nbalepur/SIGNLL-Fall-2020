@@ -18,6 +18,12 @@ class ArrowButtons extends Component {
         <button
           type="button"
           class="btn btn btn-primary btn-arrow-right"
+          style={{
+            backgroundColor:
+              this.props.currentAnimation == names[name_index]
+                ? "#2185c5"
+                : "#71bceb",
+          }}
           onClick={stateChanges[name_index]}
         >
           {names[name_index]}
@@ -29,10 +35,6 @@ class ArrowButtons extends Component {
   };
 
   render() {
-    if (document.getElementById("wiki-uncolored") !== null) {
-      console.log("howdy");
-    }
-
     return (
       <div class="row">
         <div class="col-md-12" align="center" style={{ paddingBottom: "10px" }}>
@@ -40,7 +42,7 @@ class ArrowButtons extends Component {
             type="button"
             class="btn btn-info btn-sm"
             id="play-animation"
-            onClick={this.props.setAritcleLoad}
+            onClick={this.props.playAnimation}
           >
             Play Animation
           </button>{" "}
@@ -52,7 +54,7 @@ class ArrowButtons extends Component {
             Compare Summary
           </button>
         </div>
-        {this.props.viewType === "article" && (
+        {this.props.currentAnimation !== "" && (
           <div class="col-lg-12" align="center">
             <FadeIn>
               <div>{this.createButtons()}</div>

@@ -14,10 +14,21 @@ import Delayed from "../Delayed.jsx";
 class WikiSummary extends Component {
   state = {
     viewType: "",
-    loadArticle: false,
-    calcWeights: false,
-    removeSentences: false,
-    counterState: true,
+    currentAnimation: "",
+  };
+
+  playAnimation = () => {
+    setTimeout(() => {
+      this.setState({ currentAnimation: "Load Wiki Article" });
+    }, 300);
+
+    setTimeout(() => {
+      this.setState({ currentAnimation: "Sentence Weights" });
+    }, 5500);
+
+    setTimeout(() => {
+      this.setState({ currentAnimation: "Sort Sentences" });
+    }, 11500);
   };
 
   render() {
@@ -36,42 +47,38 @@ class WikiSummary extends Component {
         <br></br>
 
         <ArrowButtons
-          viewType={this.state.viewType}
-          setAritcleLoad={() => {
-            this.setState({ viewType: "article" });
-          }}
-          names={["Load Wiki Article", "Sentence Weights", "Remove Sentences"]}
+          currentAnimation={this.state.currentAnimation}
+          playAnimation={this.playAnimation}
+          names={["Load Wiki Article", "Sentence Weights", "Sort Sentences"]}
           stateChanges={[
             () => {
-              this.setState({ loadArticle: true });
-              this.setState({ calcWeights: false });
-              this.setState({ removeSentences: false });
+              this.setState({ currentAnimation: "Load Wiki Article" });
             },
             () => {
-              this.setState({ loadArticle: false });
-              this.setState({ calcWeights: true });
-              this.setState({ removeSentences: false });
+              this.setState({ currentAnimation: "Sentence Weights" });
             },
             () => {
-              this.setState({ loadArticle: false });
-              this.setState({ calcWeights: false });
-              this.setState({ removeSentences: true });
+              this.setState({ currentAnimation: "Sort Sentences" });
             },
           ]}
         />
 
         <hr></hr>
 
-        <div>
-          <Delayed waitBeforeShow={500}>
-            <div class="row">
-              <div class="col-xl-1"></div>
-              <div class="col-xl-10">
-                <SortAnimation />
-              </div>
-              <div class="col-xl-1"></div>
-            </div>
-          </Delayed>
+        <div class="row">
+          <div class="col-xl-1"></div>
+          <div class="col-xl-10">
+            {this.state.currentAnimation === "Load Wiki Article" ? (
+              <LoadAnimation />
+            ) : this.state.currentAnimation === "Sentence Weights" ? (
+              <WordWeightAnimation />
+            ) : this.state.currentAnimation === "Sort Sentences" ? (
+              <SortAnimation />
+            ) : (
+              ""
+            )}
+          </div>
+          <div class="col-xl-1"></div>
         </div>
 
         <br></br>

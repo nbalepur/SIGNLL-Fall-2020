@@ -9,7 +9,7 @@ class WordWeightAnimation extends Component {
 
   componentDidMount() {
     setTimeout(this.setBackgroundFade, 1000);
-    setTimeout(this.setSentenceFade, 3000);
+    setTimeout(this.setSentenceFade, 3500);
   }
 
   setSentenceFade = () => {

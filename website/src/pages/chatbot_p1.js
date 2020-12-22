@@ -108,7 +108,7 @@ class ChatbotPart1 extends Component {
           <ChatbotTagPredict
             title="Chatbot Part 1"
             titleKey="Demo"
-            subtitle="In this demo, you'll be able to see how the computer processing a user input and how it can be associated with a tag identifier"
+            subtitle="In this demo, you'll be able to see how the computer processing a user input and how it can be associated with a tag identifier. Type a custom message and see what the chatbot predicts!"
             badges={{
               title: "chatbotp1",
               badges: [

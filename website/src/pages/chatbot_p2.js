@@ -110,7 +110,7 @@ class ChatbotPart2 extends Component {
           <CustomerSupport
             title="Chatbot Part 2"
             titleKey="Demo"
-            subtitle="In this demo, you'll be able to interact with the chatbot that we built!"
+            subtitle="In this demo, you'll be able to interact with the chatbot that we built. This chatbot was created to be a customer support chatbot for Taco Bell. Message the bot to have your customer support needs fulfilled!"
             badges={{
               title: "chatbotp2",
               badges: [

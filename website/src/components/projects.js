@@ -252,8 +252,8 @@ class Projects extends Component {
                     <h4 style={{ color: "white" }}>Tries</h4>
                   </Link>
                   <p>
-                    Application and uses of storing dictionaries in trie data
-                    structure
+                    Application and uses of storing dictionaries in the trie
+                    data structure
                   </p>
                 </div>
               )}

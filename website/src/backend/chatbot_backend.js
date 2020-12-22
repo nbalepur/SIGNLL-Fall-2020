@@ -12,6 +12,8 @@ import TacoBellLogo from "../images/TacoBellLogo.svg";
 
 import { MessageBox } from "react-chat-elements";
 
+import { maps_api_key } from "./storage/api_key.js";
+
 export const processWords = (input) => {
   input = input.replace(/[.,/#!$%^&?.!*;:{}=\-_`~()]/g, "").toLowerCase();
   return input.split(" ");
@@ -82,12 +84,13 @@ export const getReply = (index, prob) => {
         avatar={TacoBellLogo}
         status={"read"}
         date=""
-        apiKey="AIzaSyDJAp7jGuQDN4CH3et2LzSy6S3M96JdYPo"
+        apiKey={maps_api_key}
         data={{
           latitude: 40.1058536,
           longitude: -88.2421052,
           staticUrl:
-            "https://maps.googleapis.com/maps/api/staticmap?center=40.1058372,-88.2421052&zoom=13&size=600x300&maptype=roadmap&markers=color:red%7Tlabel:C%7C40.1058372,-88.2421052&key=AIzaSyDJAp7jGuQDN4CH3et2LzSy6S3M96JdYPo",
+            "https://maps.googleapis.com/maps/api/staticmap?center=40.1058372,-88.2421052&zoom=13&size=600x300&maptype=roadmap&markers=color:red%7Tlabel:C%7C40.1058372,-88.2421052&key=" +
+            maps_api_key,
         }}
       />
     );

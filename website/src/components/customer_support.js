@@ -78,7 +78,6 @@ class CustomerSupport extends Component {
         />
         <br></br>
         <br></br>
-        <br></br>
 
         <div class="row">
           <div

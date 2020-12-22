@@ -22,9 +22,17 @@ class SummaryCompare extends Component {
             <h4>Full Text</h4>
           </FadeIn>
           {this.props.showWords ? (
-            <FadeIn>{full_text_words}</FadeIn>
+            <FadeIn>
+              <div class="overflow-auto" style={{ height: 450 }}>
+                {full_text_words}
+              </div>
+            </FadeIn>
           ) : (
-            <FadeIn>{full_text_sentences}</FadeIn>
+            <FadeIn>
+              <div class="overflow-auto" style={{ height: 450 }}>
+                {full_text_sentences}
+              </div>
+            </FadeIn>
           )}
         </div>
         <div class="col-xl-6">

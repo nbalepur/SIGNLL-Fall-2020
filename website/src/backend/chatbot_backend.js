@@ -4,7 +4,13 @@ import {
   chatbot_theta_one,
   chatbot_theta_two,
   all_words,
+  tags,
+  responses,
 } from "./storage/chatbot_storage.js";
+
+import TacoBellLogo from "../images/TacoBellLogo.svg";
+
+import { MessageBox } from "react-chat-elements";
 
 export const processWords = (input) => {
   input = input.replace(/[.,/#!$%^&?.!*;:{}=\-_`~()]/g, "").toLowerCase();
@@ -49,4 +55,43 @@ export const predictIntent = (text_input) => {
   output_layer = tf.div(1, output_layer);
 
   return output_layer;
+};
+
+export const getReply = (index, prob) => {
+  let tag = tags[index];
+
+  let replies = prob >= 0.25 ? responses[tag] : responses.noresponse;
+  let reply = replies[Math.floor(Math.random() * replies.length)];
+
+  let messages = [];
+  messages.push(
+    <MessageBox
+      position={"left"}
+      type="text"
+      avatar={TacoBellLogo}
+      status={"read"}
+      date=""
+      text={reply}
+    />
+  );
+
+  if (prob >= 0.25 && tag === "directions") {
+    messages.push(
+      <MessageBox
+        type="location"
+        avatar={TacoBellLogo}
+        status={"read"}
+        date=""
+        apiKey="AIzaSyDJAp7jGuQDN4CH3et2LzSy6S3M96JdYPo"
+        data={{
+          latitude: 40.1058536,
+          longitude: -88.2421052,
+          staticUrl:
+            "https://maps.googleapis.com/maps/api/staticmap?center=40.1058372,-88.2421052&zoom=13&size=600x300&maptype=roadmap&markers=color:red%7Tlabel:C%7C40.1058372,-88.2421052&key=AIzaSyDJAp7jGuQDN4CH3et2LzSy6S3M96JdYPo",
+        }}
+      />
+    );
+  }
+
+  return messages;
 };

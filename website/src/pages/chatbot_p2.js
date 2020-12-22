@@ -5,6 +5,7 @@ import { Container } from "react-bootstrap";
 import Tab from "../components/tabs.js";
 import Notebook from "../components/notebook.js";
 import Slides from "../components/slides.js";
+import CustomerSupport from "../components/customer_support.js";
 
 class ChatbotPart2 extends Component {
   componentDidMount() {
@@ -87,7 +88,31 @@ class ChatbotPart2 extends Component {
             download="chatbot_p2.pdf"
             source="https://docs.google.com/presentation/d/e/2PACX-1vQjAfWgUEWuQseuWeIcyAsVyV0t2eymnTV74YgWzxVDF1u58OLKDrVbrX7eq8hZGJWnmBN_99hKqZMt"
             badges={{
-              title: "chatbotp1",
+              title: "chatbotp2",
+              badges: [
+                { label: "customer support chatbot", type: "topic" },
+                { label: "neural networks", type: "topic" },
+                { label: "bag of words", type: "topic" },
+                { label: "python", type: "language" },
+                { label: "numpy", type: "language" },
+                { label: "keras", type: "language" },
+                { label: "tensorflow", type: "language" },
+                { label: "nltk", type: "language" },
+                { label: "json", type: "language" },
+              ],
+            }}
+          />
+        ),
+      },
+      {
+        name: "Chatbot Demo",
+        component: (
+          <CustomerSupport
+            title="Chatbot Part 2"
+            titleKey="Demo"
+            subtitle="In this demo, you'll be able to interact with the chatbot that we built!"
+            badges={{
+              title: "chatbotp2",
               badges: [
                 { label: "customer support chatbot", type: "topic" },
                 { label: "neural networks", type: "topic" },

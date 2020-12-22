@@ -21,6 +21,7 @@
     "react-bootstrap-switch": "^15.5.3",
     "react-canvas-draw": "^1.1.1",
     "react-chartjs-2": "^2.11.1",
+    "react-chat-elements": "^10.13.0",
     "react-dom": "^17.0.1",
     "react-fade-in": "^1.1.1",
     "react-flip-move": "^3.0.4",

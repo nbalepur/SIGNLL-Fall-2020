@@ -21,26 +21,6 @@ class Projects extends Component {
   render() {
     return (
       <Container>
-        <div id="checkbox-row" class="row">
-          <div class="col-sm-10"></div>
-          <div class="col-sm-2">
-            <div class="custom-control custom-checkbox">
-              <input
-                type="checkbox"
-                class="custom-control-input"
-                id="hide-labels"
-                onClick={() => {
-                  this.setState({
-                    showDescriptions: !this.state.showDescriptions,
-                  });
-                }}
-              />
-              <label class="custom-control-label" for="hide-labels">
-                Hide Labels
-              </label>
-            </div>
-          </div>
-        </div>
         <div
           id="carouselExampleIndicators"
           class="carousel slide"

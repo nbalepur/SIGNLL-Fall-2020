@@ -85,6 +85,7 @@ class Summarization extends Component {
                 algorithm works! This demo uses a wikipedia article on{" "}
                 <a
                   target={"_blank"}
+                  rel="noreferrer"
                   href={
                     "https://en.wikipedia.org/wiki/Natural_language_processing"
                   }

@@ -5,6 +5,7 @@ import { Container } from "react-bootstrap";
 import Tab from "../components/tabs.js";
 import Notebook from "../components/notebook.js";
 import Slides from "../components/slides.js";
+import ChatbotTagPredict from "../components/chatbot_tag_prediction.js";
 
 class ChatbotPart1 extends Component {
   componentDidMount() {
@@ -84,6 +85,30 @@ class ChatbotPart1 extends Component {
             subtitle="These slides explain what chatbots are used for, the intuition behind how they work, and a simple algorithm we can use to accomplish our task"
             download="chatbot_p1.pdf"
             source="https://docs.google.com/presentation/d/e/2PACX-1vQGMsG6SkRXnT_TRLcdPB-_au4C3SeCWnkMLqTZooUNCPJk0BdxqP70Y5PyuaSTuXt2bngKGj6gJkuE"
+            badges={{
+              title: "chatbotp1",
+              badges: [
+                { label: "customer support chatbot", type: "topic" },
+                { label: "neural networks", type: "topic" },
+                { label: "bag of words", type: "topic" },
+                { label: "python", type: "language" },
+                { label: "numpy", type: "language" },
+                { label: "keras", type: "language" },
+                { label: "tensorflow", type: "language" },
+                { label: "nltk", type: "language" },
+                { label: "json", type: "language" },
+              ],
+            }}
+          />
+        ),
+      },
+      {
+        name: "Tag Prediction Demo",
+        component: (
+          <ChatbotTagPredict
+            title="Chatbot Part 1"
+            titleKey="Demo"
+            subtitle="In this demo, you'll be able to see how the computer processing a user input and how it can be associated with a tag identifier"
             badges={{
               title: "chatbotp1",
               badges: [

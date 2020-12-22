@@ -246,8 +246,7 @@ class TweetAuthor extends Component {
           ></textarea>
         </div>
         <div class="row">
-          <div class="col-md-10"></div>
-          <div class="col-md-2">
+          <div class="col-md-12" align="right">
             <button
               style={{ width: 150 }}
               type="button"

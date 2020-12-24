@@ -9,7 +9,7 @@ import { buildTrie, unscrambleWord } from "../backend/trie_backend.js";
 import "../styles.css";
 import FlipMove from "react-flip-move";
 
-import Slider, { Range } from "rc-slider";
+import { Range } from "rc-slider";
 import "rc-slider/assets/index.css";
 
 class WordUnscramble extends Component {
@@ -20,6 +20,7 @@ class WordUnscramble extends Component {
     minLength: 2,
     maxLength: 5,
     range: [2, 5],
+    loading: false,
   };
 
   componentDidMount() {
@@ -207,8 +208,6 @@ class WordUnscramble extends Component {
         ),
       });
     }
-
-    //console.log(this.state.wordComponentFull);
   };
 
   render() {
@@ -239,7 +238,7 @@ class WordUnscramble extends Component {
               ></textarea>
             </div>
           </div>
-          <div class="col-md-8">
+          <div class="col-md-6">
             <button
               type="button"
               class="btn btn-primary unscramble-btn"

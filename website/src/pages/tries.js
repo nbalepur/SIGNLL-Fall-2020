@@ -74,7 +74,7 @@ class Tries extends Component {
           <WordUnscramble
             title="Tries"
             titleKey="Word Unscrambler"
-            subtitle="In this demo we'll take a look at a very useful application of Tries: recursively unscrambling letters to create valid words. Type some letters and watch them be unscrambled to make valid words!"
+            subtitle="In this demo we'll take a look at a very useful application of Tries: recursively unscrambling letters to create valid words. Type some letters to see the speed at which Tries allow us to do this!"
             badges={{
               title: "tries",
               badges: [

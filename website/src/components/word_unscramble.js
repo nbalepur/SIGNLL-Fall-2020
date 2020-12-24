@@ -8,13 +8,18 @@ import { buildTrie, unscrambleWord } from "../backend/trie_backend.js";
 
 import "../styles.css";
 import FlipMove from "react-flip-move";
-import FadeIn from "react-fade-in";
+
+import Slider, { Range } from "rc-slider";
+import "rc-slider/assets/index.css";
 
 class WordUnscramble extends Component {
   state = {
     root: null,
     wordComponentFull: null,
     wordComponent: null,
+    minLength: 2,
+    maxLength: 5,
+    range: [2, 5],
   };
 
   componentDidMount() {
@@ -43,7 +48,7 @@ class WordUnscramble extends Component {
 
     let wordObj = unscrambleWord(root, input);
     let component = this.createWordObjComponent(wordObj, fadeIn);
-    console.log(component);
+
     this.setState({
       wordComponent: component,
       wordComponentFull: component,
@@ -88,6 +93,25 @@ class WordUnscramble extends Component {
     let components = [];
 
     for (const [key, value] of Object.entries(wordObj)) {
+      if (key === "maxLength") {
+        this.setState({ maxLength: value });
+
+        let range = this.state.range;
+        range[1] = value;
+        this.setState({ range: range });
+
+        continue;
+      }
+      if (key === "minLength") {
+        this.setState({ minLength: value });
+
+        let range = this.state.range;
+        range[0] = value;
+        this.setState({ range: range });
+
+        continue;
+      }
+
       components.push(
         <div key={key.toString() + value.toString()}>
           <h3>
@@ -158,8 +182,36 @@ class WordUnscramble extends Component {
     return components;
   };
 
+  updateComponent = (range) => {
+    let children = this.state.wordComponentFull.props.children;
+    let components = [children[0]];
+
+    for (let child_index = 1; child_index < children.length; child_index++) {
+      let child = children[child_index];
+      let id = parseInt(child.key.substring(0, 1));
+
+      if (id >= range[0] && id <= range[1]) {
+        components.push(child);
+      }
+
+      this.setState({
+        wordComponent: (
+          <FlipMove
+            enterAnimation="fade"
+            leaveAnimation="fade"
+            staggerDurationBy={250}
+            duration={100}
+          >
+            {components}
+          </FlipMove>
+        ),
+      });
+    }
+
+    //console.log(this.state.wordComponentFull);
+  };
+
   render() {
-    //console.log(this.state);
     return (
       <Container>
         <br></br>
@@ -196,10 +248,31 @@ class WordUnscramble extends Component {
               Unscramble
             </button>
           </div>
+
+          <div class="col-md-4">
+            <label for="exampleFormControlTextarea1">
+              Word Length Range:{" "}
+              <span style={{ color: "#2185c5" }}>{this.state.range[0]}</span> to{" "}
+              <span style={{ color: "#2185c5" }}>{this.state.range[1]}</span>
+            </label>
+            <Range
+              id="trie-range"
+              min={this.state.minLength}
+              max={this.state.maxLength}
+              defaultValue={this.state.range}
+              value={this.state.range}
+              step={1}
+              onChange={(value) => {
+                this.updateComponent(value);
+                this.setState({ range: value });
+              }}
+              trackStyle={[{ backgroundColor: "#2185c5" }]}
+            />
+          </div>
         </div>
         <br></br>
         <br></br>
-        {this.state.wordComponentFull}
+        {this.state.wordComponent}
         <br></br>
         <br></br>
         <br></br>

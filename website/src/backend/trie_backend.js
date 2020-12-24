@@ -163,5 +163,8 @@ export const createWordObj = (words) => {
     wordObj[word.length] = word_arr;
   }
 
+  wordObj.maxLength = words[0].length;
+  wordObj.minLength = words[words.length - 1].length;
+
   return wordObj;
 };

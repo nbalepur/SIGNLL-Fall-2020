@@ -7,6 +7,8 @@ import Notebook from "../components/notebook.js";
 import Slides from "../components/slides.js";
 import HandwrittenDigit from "../components/handwritten_digit.js";
 
+import Test from "../components/test.js";
+
 class NeuralNetwork extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
@@ -71,7 +73,7 @@ class NeuralNetwork extends Component {
       {
         name: "Handwritten Digits Demo",
         component: (
-          <HandwrittenDigit
+          <Test
             title="Neural Networks"
             titleKey="Demo"
             subtitle="In this demo, you can see what and how the computer predicts handwritten digits. Draw your own number and try it out!"

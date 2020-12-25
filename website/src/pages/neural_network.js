@@ -73,7 +73,7 @@ class NeuralNetwork extends Component {
       {
         name: "Handwritten Digits Demo",
         component: (
-          <Test
+          <HandwrittenDigit
             title="Neural Networks"
             titleKey="Demo"
             subtitle="In this demo, you can see what and how the computer predicts handwritten digits. Draw your own number and try it out!"

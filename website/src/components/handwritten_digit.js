@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { Container, Button, Jumbotron } from "react-bootstrap";
+import { Container, Button } from "react-bootstrap";
 
 import { HandwrittenDigitRecogniser as mnist } from "handwritten-mathematics-recogniser/digit";
 import { Drawer } from "handwritten-mathematics-recogniser/drawer";

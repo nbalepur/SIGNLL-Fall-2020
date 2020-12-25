@@ -7,8 +7,6 @@ import Notebook from "../components/notebook.js";
 import Slides from "../components/slides.js";
 import HandwrittenDigit from "../components/handwritten_digit.js";
 
-import Test from "../components/test.js";
-
 class NeuralNetwork extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);

@@ -6,12 +6,18 @@ import Subheader from "./subheader.js";
 
 import Chart from "chart.js";
 
-import { Scatter } from "react-chartjs-2";
+import Slider from "rc-slider";
+import "rc-slider/assets/index.css";
+
+import "../styles.css";
+
+import { linreg } from "../backend/regression_backend.js";
 
 class LinReg extends Component {
   state = {
     points: [],
     scatterPlot: null,
+    degrees: 0,
   };
 
   componentDidMount() {
@@ -28,6 +34,11 @@ class LinReg extends Component {
         ],
       },
       options: {
+        title: {
+          display: true,
+          text: "Linear Regression Plot",
+          fontSize: 25,
+        },
         tooltips: {
           enabled: false,
         },
@@ -104,6 +115,17 @@ class LinReg extends Component {
     }
   };
 
+  clearPoints = () => {
+    let scatterPlot = this.state.scatterPlot;
+    scatterPlot.data.datasets[0].data = [];
+    scatterPlot.update();
+  };
+
+  fitLine = () => {
+    let scatterPlot = this.state.scatterPlot;
+    linreg(scatterPlot.data.datasets[0].data, this.state.degrees);
+  };
+
   render() {
     return (
       <Container>
@@ -120,6 +142,37 @@ class LinReg extends Component {
         <div class="row">
           <div class="col-xl-12" align="center">
             <canvas id="linreg-scatter"></canvas>
+            <br></br>
+          </div>
+          <div class="col-lg-3">
+            <label for="exampleFormControlTextarea1">
+              Degrees: {this.state.degrees}
+            </label>
+            <Slider
+              min={0}
+              max={5}
+              defaultValue={0}
+              onChange={(value) => {
+                this.setState({ degrees: value });
+              }}
+              trackStyle={[{ backgroundColor: "#2185c5" }]}
+            />
+          </div>
+          <div class="col-lg-9" align="right">
+            <button
+              type="button"
+              class="btn btn-danger"
+              onClick={this.clearPoints}
+            >
+              Clear
+            </button>{" "}
+            <button
+              type="button"
+              class="btn btn-primary"
+              onClick={this.fitLine}
+            >
+              Fit Line
+            </button>
           </div>
         </div>
         <br></br>

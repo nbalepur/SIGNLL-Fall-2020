@@ -6,6 +6,8 @@ import Tab from "../components/tabs.js";
 import Notebook from "../components/notebook.js";
 import Slides from "../components/slides.js";
 
+import LinReg from "../components/linreg.js";
+
 class Regression extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
@@ -50,6 +52,26 @@ class Regression extends Component {
             subtitle="This slideshow gives an overview of the theory behind regression, as well as an explanation of data collection and model validation"
             download="regression.pdf"
             source="https://docs.google.com/presentation/d/e/2PACX-1vQA38WH3xkJWdlTRXq_CrA0wQOO8C6fRCHguEoh11oCd4X_CXLUBO4eR1tGW2ADlTLTGbT2kaiTsdM_"
+            badges={{
+              title: "regression",
+              badges: [
+                { label: "linear regression", type: "topic" },
+                { label: "logistic regression", type: "topic" },
+                { label: "python", type: "language" },
+                { label: "numpy", type: "language" },
+                { label: "matplotlib", type: "language" },
+              ],
+            }}
+          />
+        ),
+      },
+      {
+        name: "Linear Regression Demo",
+        component: (
+          <LinReg
+            title="Linear Regression"
+            titleKey="Demo"
+            subtitle="In this demo, you'll be able to plot your own points and create a line of best fit. Click anywhere on the graph to add points and click on a point to remove it. Once you are done, you can train the gradient descent model!"
             badges={{
               title: "regression",
               badges: [

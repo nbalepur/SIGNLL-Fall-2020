@@ -123,7 +123,32 @@ class LinReg extends Component {
 
   fitLine = () => {
     let scatterPlot = this.state.scatterPlot;
-    linreg(scatterPlot.data.datasets[0].data, this.state.degrees);
+    let points = linreg(scatterPlot.data.datasets[0].data, this.state.degrees);
+
+    points.array().then((arr) => {
+      let newPoints = [];
+      for (let p = 0; p < 100; p++) {
+        newPoints.push({ x: arr[0][0][p], y: arr[0][1][p] });
+      }
+
+      let scatterPlot = this.state.scatterPlot;
+
+      if (scatterPlot.data.datasets.length === 1) {
+        scatterPlot.data.datasets.push({
+          backgroundColor: "green",
+          data: newPoints,
+          type: "line",
+        });
+      } else {
+        scatterPlot.data.datasets[1] = {
+          backgroundColor: "green",
+          data: newPoints,
+          type: "line",
+        };
+      }
+
+      scatterPlot.update();
+    });
   };
 
   render() {
@@ -150,7 +175,7 @@ class LinReg extends Component {
             </label>
             <Slider
               min={0}
-              max={5}
+              max={4}
               defaultValue={0}
               onChange={(value) => {
                 this.setState({ degrees: value });

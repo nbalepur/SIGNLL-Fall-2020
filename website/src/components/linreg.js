@@ -13,6 +13,9 @@ import "../styles.css";
 
 import { linreg } from "../backend/regression_backend.js";
 
+import "katex/dist/katex.min.css";
+import { InlineMath } from "react-katex";
+
 class LinReg extends Component {
   state = {
     points: [],
@@ -20,6 +23,8 @@ class LinReg extends Component {
     scatterPlot: null,
     degrees: 0,
     maxDegrees: 5,
+    equation: "y = \\theta_0",
+    allThetas: [],
   };
 
   componentDidMount() {
@@ -127,7 +132,10 @@ class LinReg extends Component {
       scatterPlot.data.datasets[1].data = [];
     }
 
-    this.state.fittedLines = [];
+    this.setState({ fittedLines: [] });
+    this.setState({ allThetas: [] });
+
+    this.updateEquation(this.state.degrees);
 
     scatterPlot.update();
   };
@@ -136,11 +144,18 @@ class LinReg extends Component {
     let scatterPlot = this.state.scatterPlot;
 
     let fittedLines = [];
+    let allThetas = [];
+
+    if (scatterPlot.data.datasets[0].data.length === 0) {
+      return;
+    }
 
     for (let deg = 0; deg <= this.state.maxDegrees; deg++) {
       let data = linreg(scatterPlot.data.datasets[0].data, deg);
       let x = data.x._data;
       let y = data.y._data;
+
+      allThetas.push(data.thetas);
 
       let newPoints = [];
       for (let p = 0; p < 200; p++) {
@@ -151,8 +166,11 @@ class LinReg extends Component {
     }
 
     this.setState({ fittedLines: fittedLines });
+    this.setState({ allThetas: allThetas });
 
     this.updateFittedLine(this.state.degrees, fittedLines);
+
+    this.updateEquation(this.state.degrees, allThetas);
   };
 
   updateFittedLine = (deg, fittedLines) => {
@@ -185,6 +203,38 @@ class LinReg extends Component {
     scatterPlot.update();
   };
 
+  updateEquation = (deg, thetas) => {
+    let equation = "y = ";
+
+    if (thetas === null || thetas === undefined || thetas.length === 0) {
+      for (let d = deg; d >= 1; d--) {
+        if (d !== 1) {
+          equation += "\\theta_{" + d + "}x^{" + d + "} + ";
+        } else {
+          equation += "\\theta_{" + d + "}x + ";
+        }
+      }
+
+      equation += "\\theta_0";
+    } else {
+      let slopes = thetas[deg]._data;
+
+      for (let d = deg; d >= 1; d--) {
+        let slope = slopes[d][0].toFixed(2);
+
+        if (d !== 1) {
+          equation += slope + "x^{" + d + "} + ";
+        } else {
+          equation += slope + "x + ";
+        }
+      }
+
+      equation += slopes[0][0].toFixed(2);
+    }
+
+    this.setState({ equation: equation });
+  };
+
   render() {
     return (
       <Container>
@@ -199,6 +249,26 @@ class LinReg extends Component {
         <br></br>
         <br></br>
         <div class="row">
+          <div class="col-xl-12" align="center">
+            <div class="col-lg-6">
+              <h4 style={{ fontSize: 25 }}>
+                Degrees:{" "}
+                <span style={{ color: "#2185c5" }}>{this.state.degrees}</span>
+              </h4>
+              <Slider
+                min={0}
+                max={this.state.maxDegrees}
+                defaultValue={0}
+                onChange={(value) => {
+                  this.setState({ degrees: value });
+                  this.updateFittedLine(value, this.state.fittedLines);
+                  this.updateEquation(value, this.state.allThetas);
+                }}
+                trackStyle={[{ backgroundColor: "#2185c5" }]}
+              />
+              <br></br>
+            </div>
+          </div>
           <div class="col-xl-12" align="center">
             <canvas id="linreg-scatter"></canvas>
             <br></br>
@@ -219,32 +289,21 @@ class LinReg extends Component {
               Fit Lines
             </button>
           </div>
-          <div class="col-xl-12" align="center">
-            <div class="col-lg-6">
-              <br></br>
-              <h4 style={{ fontSize: 25 }}>
-                Degrees:{" "}
-                <span style={{ color: "#2185c5" }}>{this.state.degrees}</span>
-              </h4>
-              <Slider
-                min={0}
-                max={this.state.maxDegrees}
-                defaultValue={0}
-                onChange={(value) => {
-                  this.setState({ degrees: value });
-                  this.updateFittedLine(value, this.state.fittedLines);
-                }}
-                trackStyle={[{ backgroundColor: "#2185c5" }]}
-              />
-              <br></br>
+
+          <div class="col-lg-12" align="center">
+            <br></br>
+            <div class="col-lg-12" align="center">
+              {" "}
+              <h4>Your Equation:</h4>
             </div>
-            <div class="col-lg-10">
-              <Jumbotron>
-                <h3>whats up</h3>
-              </Jumbotron>
-            </div>
+            <Jumbotron>
+              <h2>
+                <InlineMath math={this.state.equation} />
+              </h2>
+            </Jumbotron>
           </div>
         </div>
+
         <br></br>
         <br></br>
         <br></br>

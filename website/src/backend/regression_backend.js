@@ -1,10 +1,7 @@
-import * as tf from "@tensorflow/tfjs";
+import { create, all } from "mathjs";
 
-export const linCostDerivative = (predicted, actual, inputs, m) => {
-  let diff = tf.sub(predicted, actual);
-  let grad = tf.matMul(tf.transpose(inputs), diff);
-  return tf.mul(1 / m, grad);
-};
+const config = {};
+const math = create(all, config);
 
 export const buildInputOutput = (data) => {
   let x = [];
@@ -20,44 +17,43 @@ export const buildInputOutput = (data) => {
 };
 
 export const createInputs = (degrees, x, sample_size) => {
-  let input = tf.ones([1, sample_size]);
+  let data = [];
 
-  for (let deg = 1; deg < degrees + 1; deg++) {
-    let col = tf.reshape(x, [1, sample_size]);
-    col = tf.pow(col, deg);
-
-    input = input.concat(col);
+  for (let deg = 0; deg <= degrees; deg++) {
+    let col = [];
+    for (let x_itr = 0; x_itr < sample_size; x_itr++) {
+      col.push(Math.pow(x[x_itr], deg));
+    }
+    data.push(col);
   }
 
-  return input;
+  return math.matrix(data);
 };
 
 export const linreg = (data, degrees) => {
   let sample_size = data.length;
 
   let input_output = buildInputOutput(data);
-  let x = tf.tensor(input_output.x);
+  let x = input_output.x;
   let y = input_output.y;
 
-  let input = createInputs(degrees, x, sample_size);
+  let input = math.transpose(createInputs(degrees, x, sample_size));
+  let output = math.transpose(math.matrix([y]));
 
-  let output = tf.tensor2d(y, [sample_size, 1]);
+  let A = math.multiply(math.transpose(input), input);
+  let B = math.multiply(math.transpose(input), output);
 
-  let thetas = tf.randomUniform([degrees + 1, 1], -1, 1);
+  let thetas = math.multiply(math.inv(A), B);
 
-  input = tf.transpose(input);
+  let new_x = math.range(-10, 10, 0.1, true);
 
-  for (let itr = 0; itr < 10000; itr++) {
-    let pred_y = tf.matMul(input, thetas);
-    let grad = linCostDerivative(pred_y, output, input, sample_size);
+  let new_input = math.transpose(createInputs(degrees, new_x._data, 201));
 
-    thetas = tf.sub(thetas, tf.mul(0.0001, grad));
-  }
+  let new_y = math.multiply(new_input, thetas);
 
-  let new_x = tf.linspace(-10, 10, 100);
-  let new_input = createInputs(degrees, new_x, 100);
-
-  let new_y = tf.matMul(tf.transpose(new_input), thetas);
-
-  return tf.transpose(tf.stack([tf.reshape(new_x, [100, 1]), new_y], 1));
+  return {
+    x: new_x,
+    y: new_y,
+    thetas: thetas,
+  };
 };

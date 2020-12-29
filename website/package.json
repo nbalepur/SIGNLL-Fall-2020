@@ -16,6 +16,7 @@
     "chartjs-plugin-deferred": "^1.0.1",
     "fake-tweet": "^0.1.15",
     "handwritten-mathematics-recogniser": "0.0.6",
+    "mathjs": "^8.1.0",
     "normal-distribution": "0.0.9",
     "rc-slider": "^9.7.1",
     "react": "^17.0.1",

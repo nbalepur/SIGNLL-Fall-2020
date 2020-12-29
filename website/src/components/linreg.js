@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { Container } from "react-bootstrap";
+import { Container, Jumbotron } from "react-bootstrap";
 
 import Subheader from "./subheader.js";
 
@@ -16,20 +16,23 @@ import { linreg } from "../backend/regression_backend.js";
 class LinReg extends Component {
   state = {
     points: [],
+    fittedLines: [],
     scatterPlot: null,
     degrees: 0,
+    maxDegrees: 5,
   };
 
   componentDidMount() {
     let ctx = document.getElementById("linreg-scatter");
     let scatterPlot = new Chart(ctx, {
-      type: "scatter",
+      type: "line",
       data: {
         datasets: [
           {
-            backgroundColor: "red",
+            showLine: false,
+            backgroundColor: "#71bceb",
             data: [],
-            pointHoverBackgroundColor: "blue",
+            pointHoverBackgroundColor: "#2185c5",
           },
         ],
       },
@@ -48,6 +51,7 @@ class LinReg extends Component {
         scales: {
           xAxes: [
             {
+              type: "linear",
               display: true,
               ticks: {
                 min: -10,
@@ -104,8 +108,9 @@ class LinReg extends Component {
       ev.offsetY < bottom
     ) {
       const clickPixel = Chart.helpers.getRelativePosition(ev, scatterPlot);
-      var xNew = scatterPlot.scales["x-axis-1"].getValueForPixel(clickPixel.x);
-      var yNew = scatterPlot.scales["y-axis-1"].getValueForPixel(clickPixel.y);
+
+      var xNew = scatterPlot.scales["x-axis-0"].getValueForPixel(clickPixel.x);
+      var yNew = scatterPlot.scales["y-axis-0"].getValueForPixel(clickPixel.y);
 
       let points = scatterPlot.data.datasets[0].data;
       points.push({ x: xNew, y: yNew });
@@ -118,37 +123,66 @@ class LinReg extends Component {
   clearPoints = () => {
     let scatterPlot = this.state.scatterPlot;
     scatterPlot.data.datasets[0].data = [];
+    if (scatterPlot.data.datasets.length === 2) {
+      scatterPlot.data.datasets[1].data = [];
+    }
+
+    this.state.fittedLines = [];
+
     scatterPlot.update();
   };
 
   fitLine = () => {
     let scatterPlot = this.state.scatterPlot;
-    let points = linreg(scatterPlot.data.datasets[0].data, this.state.degrees);
 
-    points.array().then((arr) => {
+    let fittedLines = [];
+
+    for (let deg = 0; deg <= this.state.maxDegrees; deg++) {
+      let data = linreg(scatterPlot.data.datasets[0].data, deg);
+      let x = data.x._data;
+      let y = data.y._data;
+
       let newPoints = [];
-      for (let p = 0; p < 100; p++) {
-        newPoints.push({ x: arr[0][0][p], y: arr[0][1][p] });
+      for (let p = 0; p < 200; p++) {
+        newPoints.push({ x: x[p], y: y[p][0] });
       }
 
-      let scatterPlot = this.state.scatterPlot;
+      fittedLines.push(newPoints);
+    }
 
-      if (scatterPlot.data.datasets.length === 1) {
-        scatterPlot.data.datasets.push({
-          backgroundColor: "green",
-          data: newPoints,
-          type: "line",
-        });
-      } else {
-        scatterPlot.data.datasets[1] = {
-          backgroundColor: "green",
-          data: newPoints,
-          type: "line",
-        };
-      }
+    this.setState({ fittedLines: fittedLines });
 
-      scatterPlot.update();
-    });
+    this.updateFittedLine(this.state.degrees, fittedLines);
+  };
+
+  updateFittedLine = (deg, fittedLines) => {
+    if (fittedLines === null) {
+      return;
+    }
+
+    let scatterPlot = this.state.scatterPlot;
+
+    if (scatterPlot.data.datasets.length === 1) {
+      scatterPlot.data.datasets.push({
+        data: fittedLines[deg],
+        pointBackgroundColor: "transparent",
+        pointBorderColor: "transparent",
+        borderColor: "#92ad94",
+        backgroundColor: "transparent",
+        showLine: true,
+      });
+    } else {
+      scatterPlot.data.datasets[1] = {
+        data: fittedLines[deg],
+        pointBackgroundColor: "transparent",
+        pointBorderColor: "transparent",
+        borderColor: "#92ad94",
+        backgroundColor: "transparent",
+        showLine: true,
+      };
+    }
+
+    scatterPlot.update();
   };
 
   render() {
@@ -169,21 +203,7 @@ class LinReg extends Component {
             <canvas id="linreg-scatter"></canvas>
             <br></br>
           </div>
-          <div class="col-lg-3">
-            <label for="exampleFormControlTextarea1">
-              Degrees: {this.state.degrees}
-            </label>
-            <Slider
-              min={0}
-              max={4}
-              defaultValue={0}
-              onChange={(value) => {
-                this.setState({ degrees: value });
-              }}
-              trackStyle={[{ backgroundColor: "#2185c5" }]}
-            />
-          </div>
-          <div class="col-lg-9" align="right">
+          <div class="col-lg-12" align="right">
             <button
               type="button"
               class="btn btn-danger"
@@ -196,8 +216,33 @@ class LinReg extends Component {
               class="btn btn-primary"
               onClick={this.fitLine}
             >
-              Fit Line
+              Fit Lines
             </button>
+          </div>
+          <div class="col-xl-12" align="center">
+            <div class="col-lg-6">
+              <br></br>
+              <h4 style={{ fontSize: 25 }}>
+                Degrees:{" "}
+                <span style={{ color: "#2185c5" }}>{this.state.degrees}</span>
+              </h4>
+              <Slider
+                min={0}
+                max={this.state.maxDegrees}
+                defaultValue={0}
+                onChange={(value) => {
+                  this.setState({ degrees: value });
+                  this.updateFittedLine(value, this.state.fittedLines);
+                }}
+                trackStyle={[{ backgroundColor: "#2185c5" }]}
+              />
+              <br></br>
+            </div>
+            <div class="col-lg-10">
+              <Jumbotron>
+                <h3>whats up</h3>
+              </Jumbotron>
+            </div>
           </div>
         </div>
         <br></br>

@@ -218,18 +218,26 @@ class LinReg extends Component {
       equation += "\\theta_0";
     } else {
       let slopes = thetas[deg]._data;
+      let absNext = false;
 
       for (let d = deg; d >= 1; d--) {
-        let slope = slopes[d][0].toFixed(2);
+        let slope = absNext
+          ? Math.abs(slopes[d][0].toFixed(2))
+          : slopes[d][0].toFixed(2);
+
+        let sign = slopes[d - 1][0] >= 0 ? "+" : "-";
+        absNext = slopes[d - 1][0] < 0;
 
         if (d !== 1) {
-          equation += slope + "x^{" + d + "} + ";
+          equation += slope + "x^{" + d + "} " + sign + " ";
         } else {
-          equation += slope + "x + ";
+          equation += slope + "x " + sign + " ";
         }
       }
 
-      equation += slopes[0][0].toFixed(2);
+      equation += absNext
+        ? Math.abs(slopes[0][0].toFixed(2))
+        : slopes[0][0].toFixed(2);
     }
 
     this.setState({ equation: equation });

@@ -3415,6 +3415,13 @@ export const summary_text_sentences = (
     </p>
     <p></p>
     <p>
+      <span style={{ backgroundColor: "#ee7872" }}>
+        Many different classes of machine-learning algorithms have been applied
+        to natural-language-processing tasks.{" "}
+      </span>
+    </p>
+    <p></p>
+    <p>
       <span style={{ backgroundColor: "#ee746d" }}>
         In some areas, this shift has entailed substantial changes in how NLP
         systems are designed, such that deep neural network-based approaches may

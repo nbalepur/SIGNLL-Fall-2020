@@ -3372,16 +3372,16 @@ export const wiki_sentence_sorted = [
   </p>,
   <p>
     <span style={{ backgroundColor: "#ee746d" }}>
-      In some areas, this shift has entailed substantial changes in how NLP
-      systems are designed, such that deep neural network-based approaches may
-      be viewed as a new paradigm distinct from statistical natural language
-      processing.{" "}
+      Many different classes of machine-learning algorithms have been applied to
+      natural-language-processing tasks.{" "}
     </span>
   </p>,
   <p>
     <span style={{ backgroundColor: "#ee7872" }}>
-      Many different classes of machine-learning algorithms have been applied to
-      natural-language-processing tasks.{" "}
+      In some areas, this shift has entailed substantial changes in how NLP
+      systems are designed, such that deep neural network-based approaches may
+      be viewed as a new paradigm distinct from statistical natural language
+      processing.{" "}
     </span>
   </p>,
   <p>

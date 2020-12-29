@@ -69,9 +69,9 @@ class Regression extends Component {
         name: "Linear Regression Demo",
         component: (
           <LinReg
-            title="Linear Regression"
+            title="Linear and Logistic Regression"
             titleKey="Demo"
-            subtitle="In this demo, you'll be able to plot your own points and create a line of best fit. Click anywhere on the graph to add points and click on a point to remove it. Once you are done, you can train the gradient descent model!"
+            subtitle="In this demo, you'll be able to plot your own points and create a line of best fit. Click anywhere on the graph to add points and click on a point to remove it. Once you are done, you can train the gradient descent model and vary the degree of the line!"
             badges={{
               title: "regression",
               badges: [

@@ -93,7 +93,7 @@ If you navigate to the [SIGNLL Website](nbalepur.github.io/SIGNLL-Fall-2020) und
 
 In this demo, you can type in your own custom tweet and watch the computer predict whether or not your tweet was positive or negative. You'll be able to view your custom tweet, followed by visualizations of its overall sentiment probability and individual word breakdown
 
-
+![sentiment demo](./images/sentiment.gif)
 
 ### Neural Networks
 

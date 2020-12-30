@@ -105,7 +105,7 @@ This week, we discuss two of the most fundamental algorithms for NLP: linear and
 
 #### Linear Regression Demo
 
-If you navigate to the [SIGNLL Website](nbalepur.github.io/SIGNLL-Fall-2020) under `Linear and Logistic Regression` and `Linear Regression Demo`, you can try the following demo for yourself!
+If you navigate to the [SIGNLL Website](https://nbalepur.github.io/SIGNLL-Fall-2020/) under `Linear and Logistic Regression` and `Linear Regression Demo`, you can try the following demo for yourself!
 
 You will be taken to an interactive plot where you can add points by clicking on the plot, and delete an existing point by clicking on it. Once you are satisfied, you can press `Fit Line` to run the algorithm. Finally, you can vary the degree of the model fit and the equation for the line will update dynamically. Pressing `Clear` will remove all points, lines, and equations on the screen
 
@@ -124,7 +124,7 @@ This week, we take what we learned last week and apply logistic regression to pr
 
 #### Custom Tweet Demo
 
-If you navigate to the [SIGNLL Website](nbalepur.github.io/SIGNLL-Fall-2020) under `Sentiment Analysis` and `Custom Tweet Demo`, you can try the following demo for yourself!
+If you navigate to the [SIGNLL Website](https://nbalepur.github.io/SIGNLL-Fall-2020/) under `Sentiment Analysis` and `Custom Tweet Demo`, you can try the following demo for yourself!
 
 In this demo, you can type in your own custom tweet and watch the computer predict whether or not your tweet was positive or negative. You'll be able to view your custom tweet, followed by visualizations of its overall sentiment probability and individual word breakdown
 
@@ -145,7 +145,7 @@ This week, we go over another funademental concept for NLP: neural networks. We 
 
 #### Handwritten Digits Demo
 
-If you navigate to the [SIGNLL Website](nbalepur.github.io/SIGNLL-Fall-2020) under `Neural Networks` and `Handwritten Digits Demo`, you can try the following demo for yourself!
+If you navigate to the [SIGNLL Website](https://nbalepur.github.io/SIGNLL-Fall-2020/) under `Neural Networks` and `Handwritten Digits Demo`, you can try the following demo for yourself!
 
 Simply draw your number on the canvas and press `Predict` to view the probability distribution of the model. You can also press `Clear` to clear your drawing and predict again
 
@@ -168,7 +168,7 @@ We begin our exploration of chatbots this week by learning what chatbots are use
 
 #### Tag Prediction Demo
 
-If you navigate to the [SIGNLL Website](nbalepur.github.io/SIGNLL-Fall-2020) under `Chatbot Part 1` and `Tag Prediction Demo`, you can try the following demo for yourself!
+If you navigate to the [SIGNLL Website](https://nbalepur.github.io/SIGNLL-Fall-2020/) under `Chatbot Part 1` and `Tag Prediction Demo`, you can try the following demo for yourself!
 
 Type a custom message and you will be able to see the chatbot's association with your message to one of the following tags:
 
@@ -201,7 +201,7 @@ This week, we review our chatbot algorithm, learn how we can make multi-class pr
 
 #### Chatbot Demo
 
-If you navigate to the [SIGNLL Website](nbalepur.github.io/SIGNLL-Fall-2020) under `Chatbot Part 2` and `Chatbot Demo`, you can try the following demo for yourself!
+If you navigate to the [SIGNLL Website](https://nbalepur.github.io/SIGNLL-Fall-2020/) under `Chatbot Part 2` and `Chatbot Demo`, you can try the following demo for yourself!
 
 In this demo, you'll be able to interact with the chatbot that we built. This chatbot was created to be a customer support chatbot for Taco Bell. Type the message in the input field and press `Send` to have your customer support needs fulfilled!
 
@@ -221,7 +221,7 @@ This week, we take a look at different types of summarization, a simple algorith
 
 #### Summary Visualization - Animation
 
-If you navigate to the [SIGNLL Website](nbalepur.github.io/SIGNLL-Fall-2020) under `Text Summarization` and `Summary Visualization`, you can press `Play Animation` to try the following demo for yourself!
+If you navigate to the [SIGNLL Website](https://nbalepur.github.io/SIGNLL-Fall-2020/) under `Text Summarization` and `Summary Visualization`, you can press `Play Animation` to try the following demo for yourself!
 
 After pressing the `Play Animation` button, you'll be able to visualize how the algorithm works
 
@@ -229,7 +229,7 @@ After pressing the `Play Animation` button, you'll be able to visualize how the 
 
 #### Summary Visualization - Comparison
 
-If you navigate to the [SIGNLL Website](nbalepur.github.io/SIGNLL-Fall-2020) under `Text Summarization` and `Summary Visualization`, you can press `Compare Summary` to try the following demo for yourself!
+If you navigate to the [SIGNLL Website](https://nbalepur.github.io/SIGNLL-Fall-2020/) under `Text Summarization` and `Summary Visualization`, you can press `Compare Summary` to try the following demo for yourself!
 
 After pressing `Compare Summary` you can see a side-by-side comparison of the weights of the original text and the summary. You can toggle the switch at the top of the screen to switch between word weights and summary weights
 
@@ -249,7 +249,7 @@ This week, we take a look at the Trie data structure. We discuss the theory behi
 
 #### Word Unscrambler Demo
 
-If you navigate to the [SIGNLL Website](nbalepur.github.io/SIGNLL-Fall-2020) under `Tries` and `Word Unscrambler`, you can try the following demo for yourself!
+If you navigate to the [SIGNLL Website](https://nbalepur.github.io/SIGNLL-Fall-2020/) under `Tries` and `Word Unscrambler`, you can try the following demo for yourself!
 
 In this demo you can take a look at a very useful application of Tries: recursively unscrambling letters to create valid words. Type some letters in the input field to see the speed at which Tries allow us to do this. After all the words are generated, you can use the slider to subset by word length
 
@@ -270,7 +270,7 @@ This week, we give an introduction to probability, statistics and bayes theorem,
 
 #### Tweet Author Demo
 
-If you navigate to the [SIGNLL Website](nbalepur.github.io/SIGNLL-Fall-2020) under `Naive Bayes` and `Tweet Author Demo`, you can try the following demo for yourself!
+If you navigate to the [SIGNLL Website](https://nbalepur.github.io/SIGNLL-Fall-2020/) under `Naive Bayes` and `Tweet Author Demo`, you can try the following demo for yourself!
 
 Simply type your message in the input field and see if the computer predicts the tweet was more likely to be tweeted by Kanye West or Joe Biden. You'll be able to see a fake tweet for the predicted author, as well as visualizations for the author probability distribution and individual word author breakdown
 

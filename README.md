@@ -4,9 +4,16 @@
 
 SIGNLL is an organization committed to the learning and exploration of various Natural Language Processing and Machine Learning Topics. As one of the many subcommittees of the UIUC chapter of [ACM](acm.illinois.edu), we taught various lessons and walked through different Python projects to give a taste of this subfield of computer science. This repository contains the code and different materials for the Fall 2020 semester of SIGNLL
 
+### Table of Contents  
+- [Getting Started](#getting-started)  
+- [Projects](#projects)
+- [Website Info](#website-info)
+- [Authors / Contact](#authors-contact)
+
 <br />
 <br />
 
+<a name = "getting-started"></a>
 ## Getting Started
 
 To get the different projecs running on your machine, follow the steps below
@@ -37,6 +44,8 @@ An in-depth tutorial on how to run and navigate through `Jupyter Notebooks` can 
 
 <br />
 <br />
+
+<a name = "projects"></a>
 
 ## Projects
 
@@ -235,6 +244,8 @@ Simply type your message in the input field and see if the computer predicts the
 <br />
 <br />
 
+<a name = "website-info"></a>
+
 ## Website Info
 
 This website was created using [React](https://github.com/facebook/create-react-app) and relies heavily on the [Bootstrap](https://react-bootstrap.github.io/) component library
@@ -249,6 +260,8 @@ This will deploy the website locally in your browser
 
 <br />
 <br />
+
+<a name = "authors-contact"></a>
 
 ## Authors / Contact
 

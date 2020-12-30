@@ -73,14 +73,33 @@ This week, we discuss two of the most fundamental algorithms for NLP: linear and
 
 If you navigate to the [SIGNLL Website](nbalepur.github.io/SIGNLL-Fall-2020) under `Linear and Logistic Regression` and `Linear Regression Demo`, you can try the following demo for yourself!
 
-You will be taken to an interactive plot where you can add points by clicking on the plot, and delete an existing point by clicking on it. Once you are satisfied, you can press `Fit Line` to run the algorithm. Finally, you can vary the degree to see the model fit and the equation for the line will update dynamically
+You will be taken to an interactive plot where you can add points by clicking on the plot, and delete an existing point by clicking on it. Once you are satisfied, you can press `Fit Line` to run the algorithm. Finally, you can vary the degree of the model fit and the equation for the line will update dynamically. Pressing `Clear` will remove all points, lines, and equations on the screen
+
+![linreg demo](./images/linreg.gif)
+
+<br />
+
+### Twitter Sentiment Analysis
+
+This week, we take what we learned last week and apply logistic regression to predicting the sentiment of tweets. We'll discuss our general algorithm for sentiment analysis and apply this algorithm in the notebook to determine whether a tweet is positive or negative
+
+- [Slides](./Twitter%20Sentiment%20Analysis/Sentiment%20Analysis%20Slides.pdf)
+- [Notebook (Blank)](./Twitter%20Sentiment%20Analysis/Twitter%20Sentiment%20Analysis%20Blank.ipynb)
+- [Notebook (Filled)](./Twitter%20Sentiment%20Analysis/Twitter%20Sentiment%20Analysis%20Filled.ipynb)
+
+#### Custom Tweet Demo
+
+If you navigate to the [SIGNLL Website](nbalepur.github.io/SIGNLL-Fall-2020) under `Sentiment Analysis` and `Custom Tweet Demo`, you can try the following demo for yourself!
+
+In this demo, you can type in your own custom tweet and watch the computer predict whether or not your tweet was positive or negative. You'll be able to view your custom tweet, followed by visualizations of its overall sentiment probability and individual word breakdown
 
 
-### Sentiment Analysis
 
 ### Neural Networks
 
-### Chatbots (Parts 1 and 2)
+### Chatbot Part 1
+
+### Chatbot Part 2
 
 ### Text Summarization
 

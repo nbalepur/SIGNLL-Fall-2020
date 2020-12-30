@@ -90,7 +90,9 @@ In this introductory demo, we take a look at how we can use the basics of `Pytho
 ![spam demo](./images/spam-not-spam.PNG)
 
 <br />
+
 <a name = "regression"></a>
+
 ### Linear and Logistic Regression
 
 This week, we discuss two of the most fundamental algorithms for NLP: linear and logistic regression. We give an overview of the theory behind the regression, an explanation of data collection and model validation, and a preview of how these algorithms can be applied using tweet predictions
@@ -206,6 +208,7 @@ In this demo, you'll be able to interact with the chatbot that we built. This ch
 <br />
 
 <a name = "summary"></a>
+
 ### Text Summarization
 
 This week, we take a look at different types of summarization, a simple algorithm for summarizing text, and how to solve certain problems that arise from our algorithm. We then apply these concepts by taking an arbitrary Wikipedia page and picking the most representative sentences to form a coherent summary
@@ -233,6 +236,7 @@ After pressing `Compare Summary` you can see a side-by-side comparison of the we
 <br />
 
 <a name = "tries"></a>
+
 ### Tries
 
 This week, we take a look at the Trie data structure. We discuss the theory behind Tries, its benefits and drawbacks, and applications where the data structure would be useful. To prove our theories, we then analyze the efficiency of different data structures for storing a large amount of text, as well as some useful applications of the Trie data structure
@@ -252,6 +256,7 @@ In this demo you can take a look at a very useful application of Tries: recursiv
 <br />
 
 <a name = "bayes"></a>
+
 ### Naive Bayes
 
 This week, we give an introduction to probability, statistics and bayes theorem, and then apply what we learned to the de-anonymization of tweets. By combining statistics and NLP, we are able to create a light-weight model to predict whether a tweet was written by Kanye West or Joe Biden

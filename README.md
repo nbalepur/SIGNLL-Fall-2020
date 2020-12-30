@@ -70,6 +70,8 @@ Below you can find the different projects for SIGNLL:
 - [Tries](#tries)
 - [Naive Bayes](#bayes)
 
+<br />
+
 <a name = "intro"></a>
 
 ### Intro to Python and NumPy

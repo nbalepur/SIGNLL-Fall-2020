@@ -195,6 +195,24 @@ After pressing `Compare Summary` you can see a side-by-side comparison of the we
 
 ![summary comparison](./images/summary-compare.gif)
 
+<br />
+
 ### Tries
+
+This week, we take a look at the Trie data structure. We discuss the theory behind Tries, its benefits and drawbacks, and applications where the data structure would be useful. To prove our theories, we then analyze the efficiency of different data structures for storing a large amount of text, as well as some useful applications of the Trie data structure
+
+- [Slides](./Tries/Tries%20Slides.pdf)
+- [Notebook (Blank)](./Tries/Tries%20Blank.ipynb)
+- [Notebook (Filled)](./Tries/Tries%20Filled.ipynb)
+
+#### Word Unscrambler Demo
+
+If you navigate to the [SIGNLL Website](nbalepur.github.io/SIGNLL-Fall-2020) under `Tries` and `Word Unscrambler`, you can try the following demo for yourself!
+
+In this demo you can take a look at a very useful application of Tries: recursively unscrambling letters to create valid words. Type some letters in the input field to see the speed at which Tries allow us to do this. After all the words are generated, you can use the slider to subset by word length
+
+![unscrambler demo](images/unscramble.gif)
+
+<br />
 
 ### Naive Bayes

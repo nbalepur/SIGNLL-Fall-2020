@@ -216,3 +216,18 @@ In this demo you can take a look at a very useful application of Tries: recursiv
 <br />
 
 ### Naive Bayes
+
+This week, we give an introduction to probability, statistics and bayes theorem, and then apply what we learned to the de-anonymization of tweets. By combining statistics and NLP, we are able to create a light-weight model to predict whether a tweet was written by Kanye West or Joe Biden
+
+
+- [Slides](./Naive%20Bayes%20Classification/Naive%20Bayes%20Slides.pdf)
+- [Notebook (Blank)](./Naive%20Bayes%20Classification/Naive%20Bayes%20Classifier%20Blank.ipynb)
+- [Notebook (Filled)](./Naive%20Bayes%20Classification/Naive%20Bayes%20Classifier%20Filled.ipynb)
+
+#### Tweet Author Demo
+
+If you navigate to the [SIGNLL Website](nbalepur.github.io/SIGNLL-Fall-2020) under `Naive Bayes` and `Tweet Author Demo`, you can try the following demo for yourself!
+
+Simply type your message in the input field and see if the computer predicts the tweet was more likely to be tweeted by Kanye West or Joe Biden. You'll be able to see a fake tweet for the predicted author, as well as visualizations for the author probability distribution and individual word author breakdown
+
+![tweet author demo](images/tweet-author-demo.gif)

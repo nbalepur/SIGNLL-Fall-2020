@@ -103,6 +103,10 @@ This week, we go over another funademental concept for NLP: neural networks. We 
 
 **Note: To run this project in Python, you must have `Keras` installed. Instructions on how to do this can be found above**
 
+- [Slides](./Neural%20Networks/Neural%20Network%20Slides.pdf)
+- [Notebook (Blank)](./Neural%20Networks/Neural%20Networks%20Blank.ipynb)
+- [Notebook (Filled)](./Neural%20Networks/Neural%20Networks%20Filled.ipynb)
+
 #### Handwritten Digits Demo
 
 If you navigate to the [SIGNLL Website](nbalepur.github.io/SIGNLL-Fall-2020) under `Neural Networks` and `Handwritten Digits Demo`, you can try the following demo for yourself!
@@ -111,7 +115,37 @@ Simply draw your number on the canvas and press `Predict` to view the probabilit
 
 ![mnist demo](./images/mnist.gif)
 
+<br />
+
 ### Chatbot Part 1
+
+We begin our exploration of chatbots this week by learning what chatbots are used for, the intuition behind how they work, and a simple bag-of-words algorithm we can use to accomplish our task. Afterwards, we use our knowledge of neural networks to train a customer support chatbot to predict a certain tag depending on the user input
+
+**Note: There are two versions of this notebook: one that uses `NumPy` and one that uses `Keras`, but they function in the exact same way**
+
+- [Slides](./Customer%20Support%20Chatbot/Part%201/Chatbot%20Part%201%20Slides.pdf)
+- [NumPy Notebook (Blank)](./Customer%20Support%20Chatbot/Part%201/%5Bnumpy%5D%5BPart%201%5D%20Customer%20Support%20Chatbot%20Blank.ipynb)
+- [NumPy Notebook (Filled)](./Customer%20Support%20Chatbot/Part%201/%5Bnumpy%5D%5BPart%201%5D%20Customer%20Support%20Chatbot%20Filled.ipynb)
+- [Keras Notebook (Blank)](./Customer%20Support%20Chatbot/Part%201/%5BKeras%5D%5BPart%201%5D%20Customer%20Support%20Chatbot%20Blank.ipynb)
+- [Keras Notebook (Filled)](./Customer%20Support%20Chatbot/Part%201/%5BKeras%5D%5BPart%201%5D%20Customer%20Support%20Chatbot%20Filled.ipynb)
+
+#### Tag Prediction Demo
+
+If you navigate to the [SIGNLL Website](nbalepur.github.io/SIGNLL-Fall-2020) under `Chatbot Part 1` and `Tag Prediction Demo`, you can try the following demo for yourself!
+
+Type a custom message and you will be able to see the chatbot's association with your message to one of the following tags:
+
+- `contact`
+- `deals`
+- `directions`
+- `fact`
+- `goodbye`
+- `greeting`
+- `options`
+- `recommendation`
+- `thanks`
+
+![tag identification demo](./images/chatbotp1.gif)
 
 ### Chatbot Part 2
 

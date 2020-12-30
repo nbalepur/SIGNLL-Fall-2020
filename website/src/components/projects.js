@@ -303,10 +303,6 @@ class Projects extends Component {
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
         </div>
       </Container>
     );

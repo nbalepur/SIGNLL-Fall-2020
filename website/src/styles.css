@@ -66,3 +66,23 @@
   -webkit-transition: color 0.25s; /* For Safari 3.1 to 6.0 */
   transition: color 0.25s;
 }
+
+.signll-image {
+  transition: transform 0.2s;
+}
+
+.signll-image:hover {
+  transform: scale(1.075);
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  transition: transform 0.2s;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.circle:hover {
+  transform: scale(1.15);
+}

@@ -231,3 +231,28 @@ If you navigate to the [SIGNLL Website](nbalepur.github.io/SIGNLL-Fall-2020) und
 Simply type your message in the input field and see if the computer predicts the tweet was more likely to be tweeted by Kanye West or Joe Biden. You'll be able to see a fake tweet for the predicted author, as well as visualizations for the author probability distribution and individual word author breakdown
 
 ![tweet author demo](images/tweet-author.gif)
+
+<br />
+<br />
+
+## Website Info
+
+This website was created using [React](https://github.com/facebook/create-react-app) and relies heavily on the [Bootstrap](https://react-bootstrap.github.io/) component library
+
+To run the website locally, navigate to `SIGNLL-Fall-2020/website` and run the following command:
+
+```
+npm start
+```
+
+This will deploy the website locally in your browser
+
+<br />
+<br />
+
+## Authors / Contact
+
+All of the code for this resository was written by me, Nishant Balepur. If you have any questions or concerns, feel free to reach out!
+- [GitHub](https://www.github.com/nbalepur)
+- [LinkedIn](https://www.linkedin.com/in/nishant-balepur-a03818107/)
+- [Email](mailto:balepur2@illinois.edu)

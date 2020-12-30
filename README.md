@@ -230,4 +230,4 @@ If you navigate to the [SIGNLL Website](nbalepur.github.io/SIGNLL-Fall-2020) und
 
 Simply type your message in the input field and see if the computer predicts the tweet was more likely to be tweeted by Kanye West or Joe Biden. You'll be able to see a fake tweet for the predicted author, as well as visualizations for the author probability distribution and individual word author breakdown
 
-![tweet author demo](images/tweet-author-demo.gif)
+![tweet author demo](images/tweet-author.gif)

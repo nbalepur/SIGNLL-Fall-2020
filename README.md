@@ -2,7 +2,7 @@
 
 **To learn more about SIGNLL and see the projects for yourself, visit our website [here](https://nbalepur.github.io/SIGNLL-Fall-2020/)**
 
-SIGNLL is an organization committed to the learning and exploration of various Natural Language Processing and Machine Learning Topics. As one of the many subcommittees of the UIUC chapter of [ACM](acm.illinois.edu), we taught various lessons and walked through different Python projects to give a taste of this subfield of computer science. This repository contains the code and different materials for the Fall 2020 semester of SIGNLL
+SIGNLL is an organization committed to the learning and exploration of various Natural Language Processing and Machine Learning Topics. As one of the many subcommittees of the UIUC chapter of [ACM](acm.illinois.edu), we have taught various lessons and walked through different Python projects to give a taste of this subfield of computer science. This repository contains the code and different materials for the Fall 2020 semester of SIGNLL
 
 ### Table of Contents  
 - [Getting Started](#getting-started)  

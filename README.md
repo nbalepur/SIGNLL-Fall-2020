@@ -1,9 +1,10 @@
 # Special Interest Group for Natural Language Learning (SIGNLL) Projects
 
-**To learn more about SIGNLL and see the projects for yourself, feel free to visit our website [here](https://nbalepur.github.io/SIGNLL-Fall-2020/)**
+**To learn more about SIGNLL and see the projects for yourself, visit our website [here](https://nbalepur.github.io/SIGNLL-Fall-2020/)**
 
 SIGNLL is an organization committed to the learning and exploration of various Natural Language Processing and Machine Learning Topics. As one of the many subcommittees of the UIUC chapter of [ACM](acm.illinois.edu), we taught various lessons and walked through different Python projects to give a taste of this subfield of computer science. This repository contains the code and different materials for the Fall 2020 semester of SIGNLL
 
+<br />
 <br />
 
 ## Getting Started
@@ -35,6 +36,7 @@ This can be accomplished fairly simply using `Anaconda Navigator`, instructions 
 An in-depth tutorial on how to run and navigate through `Jupyter Notebooks` can be found [here](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
 
 <br />
+<br />
 
 ## Projects
 
@@ -51,7 +53,28 @@ This week, we go through a brief description of NLP and the other projects we co
 
 #### Spam / Not Spam Demo
 
+In this introductory demo, we take a look at how we can use the basics of `Python` to predict whether or not an email is spam or not spam
+
+*In the following screenshot, `spam` designates a spam email and `ham` is a non-spam email*
+
+![spam demo](./images/spam-not-spam.PNG)
+
+<br />
+
 ### Linear and Logistic Regression
+
+This week, we discuss two of the most fundamental algorithms for NLP: linear and logistic regression. We give an overview of the theory behind the regression, an explanation of data collection and model validation, and a preview of how these algorithms can be applied using tweet predictions
+
+- [Slides](./Linear%20and%20Logistic%20Regression/Linear%20and%20Logistic%20Regression%20Slides.pdf)
+- [Notebook (Blank)](./Linear%20and%20Logistic%20Regression/Linear%20and%20Logistic%20Regression%20Blank.ipynb)
+- [Notebook (Filled)](./Linear%20and%20Logistic%20Regression/Linear%20and%20Logistic%20Regression%20Filled.ipynb)
+
+#### Linear Regression Demo
+
+If you navigate to the [SIGNLL Website](nbalepur.github.io/SIGNLL-Fall-2020) under `Linear and Logistic Regression` and `Linear Regression Demo`, you can try the following demo for yourself!
+
+You will be taken to an interactive plot where you can add points by clicking on the plot, and delete an existing point by clicking on it. Once you are satisfied, you can press `Fit Line` to run the algorithm. Finally, you can vary the degree to see the model fit and the equation for the line will update dynamically
+
 
 ### Sentiment Analysis
 

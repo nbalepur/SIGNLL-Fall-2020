@@ -173,6 +173,28 @@ In this demo, you'll be able to interact with the chatbot that we built. This ch
 
 ### Text Summarization
 
+This week, we take a look at different types of summarization, a simple algorithm for summarizing text, and how to solve certain problems that arise from our algorithm. We then apply these concepts by taking an arbitrary Wikipedia page and picking the most representative sentences to form a coherent summary
+
+- [Slides](./Text%20Summarization/Text%20Summarization%20Slides.pdf)
+- [Notebook (Blank)](./Text%20Summarization/Text%20Summarization%20Blank.ipynb)
+- [Notebook (Filled)](./Text%20Summarization/Text%20Summarization%20Filled.ipynb)
+
+#### Summary Visualization - Animation
+
+If you navigate to the [SIGNLL Website](nbalepur.github.io/SIGNLL-Fall-2020) under `Text Summarization` and `Summary Visualization`, you can press `Play Animation` to try the following demo for yourself!
+
+After pressing the `Play Animation` button, you'll be able to visualize how the algorithm works
+
+![summary animation](./images/summary-animation.gif)
+
+#### Summary Visualization - Comparison
+
+If you navigate to the [SIGNLL Website](nbalepur.github.io/SIGNLL-Fall-2020) under `Text Summarization` and `Summary Visualization`, you can press `Compare Summary` to try the following demo for yourself!
+
+After pressing `Compare Summary` you can see a side-by-side comparison of the weights of the original text and the summary. You can toggle the switch at the top of the screen to switch between word weights and summary weights
+
+![summary comparison](./images/summary-compare.gif)
+
 ### Tries
 
 ### Naive Bayes

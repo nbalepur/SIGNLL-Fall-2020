@@ -95,7 +95,21 @@ In this demo, you can type in your own custom tweet and watch the computer predi
 
 ![sentiment demo](./images/sentiment.gif)
 
+<br />
+
 ### Neural Networks
+
+This week, we go over another funademental concept for NLP: neural networks. We begin by taking a look at the mathematical and statistical theory behind neural networks and the principles of training and testing. Afterwards, we create a neural network from scratch using `NumPy` and use it to predict truth tables and handwritten digits with the [MNIST](https://en.wikipedia.org/wiki/MNIST_database) dataset
+
+**Note: To run this project in Python, you must have `Keras` installed. Instructions on how to do this can be found above**
+
+#### Handwritten Digits Demo
+
+If you navigate to the [SIGNLL Website](nbalepur.github.io/SIGNLL-Fall-2020) under `Neural Networks` and `Handwritten Digits Demo`, you can try the following demo for yourself!
+
+Simply draw your number on the canvas and press `Predict` to view the probability distribution of the model. You can also press `Clear` to clear your drawing and predict again
+
+![mnist demo](./images/mnist.gif)
 
 ### Chatbot Part 1
 

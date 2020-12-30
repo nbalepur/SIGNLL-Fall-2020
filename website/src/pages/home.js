@@ -8,6 +8,12 @@ import Resources from "../components/resources.js";
 import Logo from "../images/logo.png";
 import "../styles.css";
 
+import Me from "../images/me.jpg";
+
+import Gmail from "../images/gmail.png";
+import Linkedin from "../images/linkedin.webp";
+import Github from "../images/github.png";
+
 import { Link } from "react-router-dom";
 
 class Home extends Component {
@@ -115,6 +121,95 @@ class Home extends Component {
         <h2>Resources / Contact</h2>
         <hr></hr>
         <Resources />
+        <br></br>
+        <br></br>
+        <br></br>
+        <h2>
+          About <span style={{ color: "#2185c5" }}>Me</span> :)
+        </h2>
+        <hr></hr>
+
+        <div class="row">
+          <div class="col-md-4">
+            <img class="me-image" src={Me}></img>
+          </div>
+          <div class="col-md-8">
+            <h5>
+              <span style={{ color: "#2185c5" }}>Hello</span>!
+            </h5>
+            <br></br>
+            <h5>
+              My name is <span style={{ color: "#2185c5" }}>Nishant</span> and I
+              am a current student at UIUC majoring in Computer Science, and I
+              also <i>hope</i> to major in Statistics and Mathematics. As of
+              now, I am the co-chair of SIGNLL with Jack Nash
+            </h5>
+            <br></br>
+            <h5>
+              As for a little about me, my current computer science interests
+              are in data science and full-stack development. I also enjoy
+              graphic design, exercising, hiking, and listening to music in my
+              free time
+            </h5>
+            <br></br>
+            <h5>
+              If any of this seems interesting, I'd love for you to join our
+              RSO! You can find my contact information below:
+            </h5>
+            <br></br>
+            <div class="row">
+              <div class="col-sm-4" align="center">
+                <a
+                  href="mailto:balepur2@illinois.edu"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img alt="gmail" class="circle-sm" src={Gmail}></img>
+                </a>
+                <a
+                  href="mailto:balepur2@illinois.edu"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <h6 style={{ paddingTop: 15, color: "black" }}>Email</h6>
+                </a>
+              </div>
+              <div class="col-sm-4" align="center">
+                <a
+                  href="https://www.linkedin.com/in/nishant-balepur-a03818107/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img alt="linkedin" class="circle-sm" src={Linkedin}></img>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/nishant-balepur-a03818107/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <h6 style={{ paddingTop: 15, color: "black" }}>LinkedIn</h6>
+                </a>
+              </div>
+              <div class="col-sm-4" align="center">
+                <a
+                  href="https://www.github.com/nbalepur"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img alt="my github" class="circle-sm" src={Github}></img>
+                </a>
+                <a
+                  href="https://www.github.com/nbalepur"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <h6 style={{ paddingTop: 15, color: "black" }}>GitHub</h6>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <br></br>
         <br></br>
         <br></br>

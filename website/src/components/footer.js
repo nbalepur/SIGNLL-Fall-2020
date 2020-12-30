@@ -12,24 +12,36 @@ class Footer extends Component {
                 class="text-white"
                 href="mailto:balepur2@illinois.edu"
                 target="blank"
+                rel="noreferrer"
               >
                 Email
               </a>
               <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
               <a
                 class="text-white"
-                href="https://www.linkedin.com/in/nishant-balepur-a03818107/"
+                href="https://drive.google.com/drive/folders/1CbqussylbW2MsGxeYmhugtO-TaBlmoCd?usp=sharing"
                 target="blank"
+                rel="noreferrer"
               >
-                LinkedIn
+                Google Drive
               </a>
               <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
               <a
                 class="text-white"
-                href="https://github.com/nbalepur"
+                href="https://github.com/nbalepur/SIGNLL-Fall-2020"
                 target="blank"
+                rel="noreferrer"
               >
                 GitHub
+              </a>
+              <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+              <a
+                class="text-white"
+                href="https://discord.gg/hVeuPNX4MY"
+                target="blank"
+                rel="noreferrer"
+              >
+                Discord
               </a>
               <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
             </ul>

@@ -86,3 +86,28 @@
 .circle:hover {
   transform: scale(1.15);
 }
+
+.circle-sm {
+  width: 75px;
+  height: 75px;
+  transition: transform 0.2s;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.circle-sm:hover {
+  transform: scale(1.15);
+}
+
+.me-image {
+  height: 450px;
+  width: auto;
+  overflow: hidden;
+  transition: transform 0.2s;
+  border-radius: 7.5%;
+}
+
+.me-image:hover {
+  display: inline;
+  transform: scale(1.05);
+}

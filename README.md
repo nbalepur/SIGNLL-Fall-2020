@@ -147,7 +147,29 @@ Type a custom message and you will be able to see the chatbot's association with
 
 ![tag identification demo](./images/chatbotp1.gif)
 
+<br />
+
 ### Chatbot Part 2
+
+This week, we review our chatbot algorithm, learn how we can make multi-class predictions, and analyze the output layer of an activated neural network. We'll then use what we learned this week and last week to use our pre-trained chatbot to make predictions and converse with a user
+
+**Note: There are two versions of this notebook: one that uses `NumPy` and one that uses `Keras`, but they function in the exact same way**
+
+- [Slides](./Customer%20Support%20Chatbot/Part%202/Chatbot%20Part%202%20Slides.pdf)
+- [NumPy Notebook (Blank)](./Customer%20Support%20Chatbot/Part%202/%5Bnumpy%5D%5BPart%202%5D%20Customer%20Support%20Chatbot%20Blank.ipynb)
+- [NumPy Notebook (Filled)](./Customer%20Support%20Chatbot/Part%202/%5Bnumpy%5D%5BPart%202%5D%20Customer%20Support%20Chatbot%20Filled.ipynb)
+- [Keras Notebook (Blank)](./Customer%20Support%20Chatbot/Part%202/%5BKeras%5D%5BPart%202%5D%20Customer%20Support%20Chatbot%20Blank.ipynb)
+- [Keras Notebook (Filled)](./Customer%20Support%20Chatbot/Part%202/%5BKeras%5D%5BPart%202%5D%20Customer%20Support%20Chatbot%20Filled.ipynb)
+
+#### Chatbot Demo
+
+If you navigate to the [SIGNLL Website](nbalepur.github.io/SIGNLL-Fall-2020) under `Chatbot Part 2` and `Chatbot Demo`, you can try the following demo for yourself!
+
+In this demo, you'll be able to interact with the chatbot that we built. This chatbot was created to be a customer support chatbot for Taco Bell. Type the message in the input field and press `Send` to have your customer support needs fulfilled!
+
+![chatbot demo](./images/chatbotp2.gif)
+
+<br />
 
 ### Text Summarization
 

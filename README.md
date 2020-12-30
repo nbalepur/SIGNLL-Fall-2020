@@ -7,6 +7,15 @@ SIGNLL is an organization committed to the learning and exploration of various N
 ### Table of Contents  
 - [Getting Started](#getting-started)  
 - [Projects](#projects)
+  - [Intro to Python and NumPy](#intro)
+  - [Linear and Logistic Regression](#regression)
+  - [Twitter Sentiment Analysis](#sentiment)
+  - [Neural Networks](#ml)
+  - [Chatbot Part 1](#chatbotp1)
+  - [Chatbot Part 2](#chatbotp2)
+  - [Text Summarization](#summary)
+  - [Tries](#tries)
+  - [Naive Bayes](#bayes)
 - [Website Info](#website-info)
 - [Authors / Contact](#authors-contact)
 
@@ -51,6 +60,18 @@ An in-depth tutorial on how to run and navigate through `Jupyter Notebooks` can 
 
 Below you can find the different projects for SIGNLL:
 
+- [Intro to Python and NumPy](#intro)
+- [Linear and Logistic Regression](#regression)
+- [Twitter Sentiment Analysis](#sentiment)
+- [Neural Networks](#ml)
+- [Chatbot Part 1](#chatbotp1)
+- [Chatbot Part 2](#chatbotp2)
+- [Text Summarization](#summary)
+- [Tries](#tries)
+- [Naive Bayes](#bayes)
+
+<a name = "intro"></a>
+
 ### Intro to Python and NumPy
 
 This week, we go through a brief description of NLP and the other projects we covered throughout the semester. We then showcase a notebook demo with a beginner's application to `Python` and `NumPy` We have also provided a notebook for extra practice with various `NumPy` functions and `Python` data structures. Finally, we give a brief demo of using what we've learned in a simple spam-detection model
@@ -69,7 +90,7 @@ In this introductory demo, we take a look at how we can use the basics of `Pytho
 ![spam demo](./images/spam-not-spam.PNG)
 
 <br />
-
+<a name = "regression"></a>
 ### Linear and Logistic Regression
 
 This week, we discuss two of the most fundamental algorithms for NLP: linear and logistic regression. We give an overview of the theory behind the regression, an explanation of data collection and model validation, and a preview of how these algorithms can be applied using tweet predictions
@@ -88,6 +109,7 @@ You will be taken to an interactive plot where you can add points by clicking on
 
 <br />
 
+<a name = "sentiment"></a>
 ### Twitter Sentiment Analysis
 
 This week, we take what we learned last week and apply logistic regression to predicting the sentiment of tweets. We'll discuss our general algorithm for sentiment analysis and apply this algorithm in the notebook to determine whether a tweet is positive or negative
@@ -106,6 +128,7 @@ In this demo, you can type in your own custom tweet and watch the computer predi
 
 <br />
 
+<a name = "ml"></a>
 ### Neural Networks
 
 This week, we go over another funademental concept for NLP: neural networks. We begin by taking a look at the mathematical and statistical theory behind neural networks and the principles of training and testing. Afterwards, we create a neural network from scratch using `NumPy` and use it to predict truth tables and handwritten digits with the [MNIST](https://en.wikipedia.org/wiki/MNIST_database) dataset
@@ -126,6 +149,7 @@ Simply draw your number on the canvas and press `Predict` to view the probabilit
 
 <br />
 
+<a name = "chatbotp1"></a>
 ### Chatbot Part 1
 
 We begin our exploration of chatbots this week by learning what chatbots are used for, the intuition behind how they work, and a simple bag-of-words algorithm we can use to accomplish our task. Afterwards, we use our knowledge of neural networks to train a customer support chatbot to predict a certain tag depending on the user input
@@ -158,6 +182,7 @@ Type a custom message and you will be able to see the chatbot's association with
 
 <br />
 
+<a name = "chatbotp2"></a>
 ### Chatbot Part 2
 
 This week, we review our chatbot algorithm, learn how we can make multi-class predictions, and analyze the output layer of an activated neural network. We'll then use what we learned this week and last week to use our pre-trained chatbot to make predictions and converse with a user
@@ -180,6 +205,7 @@ In this demo, you'll be able to interact with the chatbot that we built. This ch
 
 <br />
 
+<a name = "summary"></a>
 ### Text Summarization
 
 This week, we take a look at different types of summarization, a simple algorithm for summarizing text, and how to solve certain problems that arise from our algorithm. We then apply these concepts by taking an arbitrary Wikipedia page and picking the most representative sentences to form a coherent summary
@@ -206,6 +232,7 @@ After pressing `Compare Summary` you can see a side-by-side comparison of the we
 
 <br />
 
+<a name = "tries"></a>
 ### Tries
 
 This week, we take a look at the Trie data structure. We discuss the theory behind Tries, its benefits and drawbacks, and applications where the data structure would be useful. To prove our theories, we then analyze the efficiency of different data structures for storing a large amount of text, as well as some useful applications of the Trie data structure
@@ -224,6 +251,7 @@ In this demo you can take a look at a very useful application of Tries: recursiv
 
 <br />
 
+<a name = "bayes"></a>
 ### Naive Bayes
 
 This week, we give an introduction to probability, statistics and bayes theorem, and then apply what we learned to the de-anonymization of tweets. By combining statistics and NLP, we are able to create a light-weight model to predict whether a tweet was written by Kanye West or Joe Biden

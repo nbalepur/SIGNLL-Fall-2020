@@ -58,7 +58,7 @@ An in-depth tutorial on how to run and navigate through `Jupyter Notebooks` can 
 
 ## Projects
 
-Below you can find the different projects for SIGNLL:
+Throughout different semesters, we have worked on the following projects
 
 - [Intro to Python and NumPy](#intro)
 - [Linear and Logistic Regression](#regression)

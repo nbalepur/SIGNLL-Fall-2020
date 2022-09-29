@@ -140,21 +140,19 @@ class Home extends Component {
             <br></br>
             <h5>
               My name is <span style={{ color: "#2185c5" }}>Nishant</span> and I
-              am a current student at UIUC majoring in Computer Science, and I
-              also <i>hope</i> to major in Statistics and Mathematics. As of
-              now, I am the co-chair of SIGNLL with Jack Nash
+              am a senior at UIUC double majoring in Computer Science and Statistics. I am no longer the chair of SIGNLL, but this website serves to host the projects completed during my time running the club.
             </h5>
             <br></br>
             <h5>
               As for a little about me, my current computer science interests
-              are in data science and full-stack development. I also enjoy
-              graphic design, exercising, hiking, and listening to music in my
+              are in natural language processing, text mining, and information retrieval. I also enjoy
+              graphic design, exercising, hiking, cooking and listening to music in my
               free time
             </h5>
             <br></br>
             <h5>
               If any of this seems interesting, I'd love for you to join our
-              RSO! You can find my contact information below:
+              RSO! Also, feel free to reach out if you have any questions! You can find my contact information below:
             </h5>
             <br></br>
             <div class="row">

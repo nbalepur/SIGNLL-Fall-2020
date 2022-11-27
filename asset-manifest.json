@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/SIGNLL-Fall-2020/static/css/main.cd7e27b0.chunk.css",
-    "main.js": "/SIGNLL-Fall-2020/static/js/main.82718599.chunk.js",
-    "main.js.map": "/SIGNLL-Fall-2020/static/js/main.82718599.chunk.js.map",
+    "main.js": "/SIGNLL-Fall-2020/static/js/main.d3db70a1.chunk.js",
+    "main.js.map": "/SIGNLL-Fall-2020/static/js/main.d3db70a1.chunk.js.map",
     "runtime-main.js": "/SIGNLL-Fall-2020/static/js/runtime-main.27d6c469.js",
     "runtime-main.js.map": "/SIGNLL-Fall-2020/static/js/runtime-main.27d6c469.js.map",
     "static/css/2.2114bc47.chunk.css": "/SIGNLL-Fall-2020/static/css/2.2114bc47.chunk.css",
@@ -26,7 +26,7 @@
     "static/media/intro.b3b837b0.png": "/SIGNLL-Fall-2020/static/media/intro.b3b837b0.png",
     "static/media/linkedin.0fdb1fe5.webp": "/SIGNLL-Fall-2020/static/media/linkedin.0fdb1fe5.webp",
     "static/media/logo.14309ca8.png": "/SIGNLL-Fall-2020/static/media/logo.14309ca8.png",
-    "static/media/me.f729d089.jpg": "/SIGNLL-Fall-2020/static/media/me.f729d089.jpg",
+    "static/media/me.e3d4e59e.jpg": "/SIGNLL-Fall-2020/static/media/me.e3d4e59e.jpg",
     "static/media/naivebayes.875d495d.png": "/SIGNLL-Fall-2020/static/media/naivebayes.875d495d.png",
     "static/media/neuralnet.cd21719c.png": "/SIGNLL-Fall-2020/static/media/neuralnet.cd21719c.png",
     "static/media/regression.cda44bcc.png": "/SIGNLL-Fall-2020/static/media/regression.cda44bcc.png",
@@ -39,6 +39,6 @@
     "static/css/2.2114bc47.chunk.css",
     "static/js/2.6d599672.chunk.js",
     "static/css/main.cd7e27b0.chunk.css",
-    "static/js/main.82718599.chunk.js"
+    "static/js/main.d3db70a1.chunk.js"
   ]
 }
